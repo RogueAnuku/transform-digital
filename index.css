@@ -1,0 +1,244 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .menu-icon-img img {
+        width: 46px;
+    }
+    .bg-dark {
+        background-color: #000 !important;
+    }
+.menu-icon-img {   width: 38px}
+body {
+    background-color: black;
+}
+
+.navbar {
+    box-shadow: -1px 1px 14px 0px #00bFF0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-name {
+    font-size: .75rem;
+    color: #F23580;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: #000;/* border-color: rgba(255,255,255,.1); */
+}
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:#6e7175; /* Default link color */
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #00BFF0; /* Change the color to your desired hover color */
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.menu-icon-img img {
+    width: 50px;
+}
+.menu-icon-img img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.menu-icon-img:hover img {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+}
+@media screen and (min-width:481px) and (max-width:600px){
+
+  
+    
+    .navbar {
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .navbar-name {
+        font-size: 1rem;
+    
+        color: #F23580;
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255,255,255,.5);
+        border-color: #000;/* border-color: rgba(255,255,255,.1); */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color:#6e7175; /* Default link color */
+        transition: color 0.3s; /* Add a smooth transition for color change */
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #00BFF0; /* Change the color to your desired hover color */
+    }
+    
+        .menu-icon-img img {
+            width: 50px;
+        }
+        .bg-dark {
+            background-color: #000 !important;
+        }
+    body {
+        background-color: black;
+    }
+}
+@media screen and (min-width:601px) and (max-width:750px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .navbar {
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .navbar-name {
+        font-size: 1rem;
+    
+        color: #F23580;
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255,255,255,.5);
+        border-color: #000;/* border-color: rgba(255,255,255,.1); */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color:#6e7175; /* Default link color */
+        transition: color 0.3s; /* Add a smooth transition for color change */
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #00BFF0; /* Change the color to your desired hover color */
+    }
+    
+        .menu-icon-img img {
+            width: 50px;
+        }
+        .bg-dark {
+            background-color: #000 !important;
+        }
+    body {
+        background-color: black;
+    }
+}
+@media screen and (min-width:751px)   and (max-width: 1023px) {
+    
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;}
+       
+
+
+.navbar {
+    box-shadow: -1px 1px 14px 0px #00bFF0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-name {
+    font-size: 1rem;
+
+    color: #F23580;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: #000;/* border-color: rgba(255,255,255,.1); */
+}
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:#6e7175; /* Default link color */
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #00BFF0; /* Change the color to your desired hover color */
+}
+
+    .menu-icon-img img {
+        width: 50px;
+    }
+    .bg-dark {
+        background-color: #000 !important;
+    }
+body {
+    background-color: black;
+}
+}
+@media screen and (min-width:1024px ){
+                
+       
+    body {
+     background-color: black;
+   }
+   .menu-icon-img img {
+       width: 46px;
+   }
+   .bg-dark {
+       background-color: #000 !important;
+   }
+.menu-icon-img {   width: 38px}
+body {
+   background-color: black;
+}
+
+.navbar {
+   box-shadow: -1px 1px 14px 0px #00bFF0;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1030;
+}
+.navbar-name {
+   /* font-family: cinzel; */
+   font-size: 1.2rem;
+   color: #F23580;
+}
+.navbar-dark .navbar-toggler {
+   color: rgba(255,255,255,.5);
+   border-color: #000;/* border-color: rgba(255,255,255,.1); */
+}
+.navbar-nav .nav-item .nav-link {
+   font-weight: 500;
+   font-size: 1.1rem;
+   color:#6e7175; /* Default link color */
+   transition: color 0.3s; /* Add a smooth transition for color change */
+}
+.navbar-nav .nav-item .nav-link:hover {
+   color: #00BFF0; /* Change the color to your desired hover color */
+}
+.navbar-expand-lg .navbar-collapse {
+   display: -ms-flexbox!important;
+   display: flex!important;
+   -ms-flex-preferred-size: auto;
+   flex-basis: auto;
+   justify-content: flex-end;
+}
+.bg-dark {
+   background-color: #000!important;
+}
+.menu-icon-img img {
+   width: 50px;
+}
+.menu-icon-img img {
+   transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.menu-icon-img:hover img {
+   transform: scale(1.1); /* Increase the size on hover */
+}
