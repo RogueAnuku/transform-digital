@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
     .menu-icon-img img {
         width: 46px;
     }
@@ -48,8 +48,122 @@ body {
 .menu-icon-img:hover img {
     transform: scale(1.1); /* Increase the size on hover */
 }
+.row-1 {
+    margin-top: 24%;
+    color: #F23580;
+    font-weight: 400;
+    font-size: 1.3rem;
 }
-@media screen and (min-width:481px) and (max-width:600px){
+.row-1 img{
+  
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    
+}
+.small, small {
+    color: #00BFF0;
+    padding: 8%;
+    font-size: .86rem;
+    font-weight: 400;
+}
+.col-md-6 {
+    
+        padding: 2%;
+        position: relative;
+        width: 100%;
+        /* padding-right: 15px; */
+        /* padding-left: 15px; */
+    }
+
+.col-md-6.title {
+          font-size: 1.2rem;
+     padding-bottom: 8%;
+}
+.row-2{
+    padding: 2%;
+}
+.row-3 {
+    padding: 2%;
+}
+.row-4 {
+    padding: 2%;
+}
+.card {
+    padding-bottom: 5;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    background-clip: border-box;
+    border: 1px solid #6c757d59;
+    border-radius: .25rem;
+}
+.row.footer {
+    margin-right: 0;
+    margin-left: 0;
+        width: 100%;
+    
+}
+.footer {
+ 
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+    width: 100%;
+    background-color: #000;
+}
+.footer-content {
+    width: 100%;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    margin-top: 60px;
+    width: 110px;
+}
+
+.footer-text {
+    padding: 10px;
+    text-align: right;
+    font-size: 10px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
+}
+@media screen and (min-width:480px) and (max-width:600px){
 
   
     
@@ -89,11 +203,66 @@ body {
     body {
         background-color: black;
     }
+    .row.footer {
+        margin-right: 0;
+        margin-left: 0;
+        position: absolute;
+         width: 100%;
+        
+    }
+    .footer {
+     
+        box-shadow: -1px 1px 14px 0px #00BFF0;
+        width: 100%;
+        background-color: #000;
+    }
+    .footer-content {
+        width: 100%;
+    }
+    
+    
+    /* Add this CSS to your existing stylesheet */
+    
+    #footer-image {
+        margin-top: 60px;
+        width: 110px;
+    }
+    
+    .footer-text {
+        padding: 10px;
+        text-align: right;
+        font-size: 10px;
+        color: #495057;
+    }
+    /* Style for the footer links */
+    .footer-links {
+        list-style-type: none;
+        padding: 20px;
+    }
+    
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        color: #f23580;
+        transition: text-decoration 0.3s; /* Add a smooth transition effect */
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline; /* Underline the link on hover */
+        color: #00BFF0; /* Change the link color on hover */
+    }
+    .container-fluid footer img {
+        margin-left: 37%;
+        justify-content: center;
+        width: 25%;
+        margin-top: -63px;
+    }
 }
 @media screen and (min-width:601px) and (max-width:750px) {
-    * {
-        box-sizing: border-box;
-    }
+    
     
     .navbar {
         box-shadow: -1px 1px 14px 0px #00bFF0;
@@ -178,6 +347,58 @@ body {
 body {
     background-color: black;
 }
+     
+        /* Your existing footer styles */
+        .footer {padding-top: 22%;
+         
+            box-shadow: -1px 1px 14px 0px #00BFF0;
+       
+            background-color: #000;
+        }
+        
+        
+        /* Add this CSS to your existing stylesheet */
+        
+        #footer-image {
+            width: 170px;
+           
+        }
+        .footer-content {
+            width: 100%;
+            padding: 30px;
+        }
+        
+        .footer-text {
+            text-align: right;
+            font-size: 14px;
+            color: #495057;
+        }
+        /* Style for the footer links */
+        .footer-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            text-decoration: none;
+            color: #f23580;
+            transition: text-decoration 0.3s; /* Add a smooth transition effect */
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline; /* Underline the link on hover */
+            color: #00BFF0; /* Change the link color on hover */
+        }
+        .container-fluid footer img {
+            margin-left: 37%;
+            justify-content: center;
+            width: 25%;
+            margin-top: -63px;
+        }
 }
 @media screen and (min-width:1024px ){
                 
@@ -229,6 +450,9 @@ body {
    flex-basis: auto;
    justify-content: flex-end;
 }
+.navbar.navbar-expand-lg.navbar-dark.fixed-top {
+    height: 78px;
+}
 .bg-dark {
    background-color: #000!important;
 }
@@ -239,6 +463,53 @@ body {
    transition: transform 0.3s; /* Add a smooth transition effect */
 }
 
+
 .menu-icon-img:hover img {
    transform: scale(1.1); /* Increase the size on hover */
+}
+.footer {margin-top:3%;
+     
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+
+    background-color: #000;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    width: 170px;
+   
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    padding-top: 18%;
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
+
 }
