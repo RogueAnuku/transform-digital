@@ -11,12 +11,20 @@ body {
 }
 
 .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    /* padding: .5rem 2rem; */
+    /* justify-content: space-around; */
     box-shadow: -1px 1px 14px 0px #00bFF0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1030;
+}   
+.navbar-brand img{
+    width: 48px;
 }
 .navbar-name {
     font-size: .75rem;
@@ -34,6 +42,279 @@ body {
 }
 .navbar-nav .nav-item .nav-link:hover {
     color: #00BFF0; /* Change the color to your desired hover color */
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    font-size: .50rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.menu-icon-img img {
+    width: 50px;
+}
+.menu-icon-img img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.menu-icon-img:hover img {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+}
+
+.row-1 {
+    margin-top: 24%;
+    color: #F23580;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.row-1 img {
+    padding-left: 10%;
+    justify-content: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+    width: 90%;
+}
+.row-2, .row-3, .row-4 {
+    width: 100%; /* Make the cards take the full width */
+    margin: 0; /* Remove any margin to ensure they stack vertically */
+    padding: 2%;
+    color: white;
+}
+.small, small {
+    color: #00BFF0;
+  
+    font-size: .86rem;
+    font-weight: 400;
+}
+.col-md-6 {
+    
+        padding: 2%;
+        position: relative;
+        width: 50%;
+        /* padding-right: 15px; */
+        /* padding-left: 15px; */
+    }
+    .col-md-6-img img {
+        width: 95%;
+        margin-left: -6px;
+    }
+
+    .col-md-6.title {
+        text-align: center;
+        width: 100%;
+        margin-top: -49px;
+        color: #F23580;
+        font-size: 1.2rem;
+        padding-bottom: 8%;
+        font-weight: 500;
+    }
+    .col-md-6\.title {
+        
+            padding: 2%;
+            font-weight: 500;
+            font-size: 1.3rem;
+            color: #F23580;
+        
+    }
+    .col-md-6-title{
+         padding-bottom: 10%;
+            font-weight: 500;
+            font-size: 1.3rem;
+            color: #00BFF0;
+        }
+    
+.col-md-6-text {
+    
+        text-wrap: wrap;
+        color: white;
+    
+}
+.col-md-6 p {
+    margin-left: 15%;
+    width: 66%;
+    text-align: center;
+}
+
+.card-1 {
+    padding-bottom: 5;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    background-clip: border-box;
+    
+    border-radius: .25rem;
+}
+.card-2 {
+    padding-bottom: 5;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    background-clip: border-box;
+    
+    border-radius: .25rem;
+}
+   
+
+.card-body {
+    color: white;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.card-text {
+    font-size: 1rem;
+}
+.h5, h5 {
+    color: #F23580;
+    font-size: 1.25rem;
+}
+.row-5 {
+  color: #00BFF0;
+        font-weight: 100;
+        padding: 4%;
+    
+}
+.card-body-2 {
+    color: white;
+}
+dl, ol, ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    margin-top: 9%;
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+    width: 111%;
+    background-color: #000;
+}
+.footer-content {
+    width: 100%;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    padding-left: 70%;
+    justify-content: right;
+    margin-top: -415px;
+    width: 106px;
+}
+
+.footer-text {
+    margin-top: -54px;
+    padding: 28px;
+    text-align: right;
+    font-size: 15px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    /* padding: 21px; */
+    font-size: .75rem;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
+}
+@media screen and (min-width:451px) and (max-width:750px){
+
+  .menu-icon-img img {
+        width: 46px;
+    }
+    .bg-dark {
+        background-color: #000 !important;
+    }
+.menu-icon-img {   width: 38px}
+body {
+    background-color: black;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+  
+  
+        box-shadow: -1px 1px 14px 0px #00bFF0;}
+      
+.navbar-name {
+    font-size: .75rem;
+    color: #F23580;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: #000;/* border-color: rgba(255,255,255,.1); */
+}
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:#6e7175; /* Default link color */
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #00BFF0; /* Change the color to your desired hover color */
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+   
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 .bg-dark {
     background-color: #000!important;
@@ -95,11 +376,16 @@ body {
         margin-left: -50px;
     }
 
-.col-md-6-title {color: #F23580;
-          font-size: 1.2rem;
-     padding-bottom: 8%;
-     font-weight: 500;
-}
+    .col-md-6.title {
+        margin-top: -100px;
+        text-align: center;
+        width: 100%;
+        margin-top: -81px;
+        color: #F23580;
+        font-size: 1.2rem;
+        padding-bottom: 8%;
+        font-weight: 500;
+    }
 .col-md-6-text {
     
         text-wrap: wrap;
@@ -113,8 +399,7 @@ body {
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
-    /* padding-right: 15px; */
-    /* padding-left: 15px; */
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -236,269 +521,9 @@ dl, ol, ul {
     margin-top: -63px;
 }
 }
-@media screen and (min-width:480px) and (max-width:600px){
-
-  
-    
-    .navbar {
-        box-shadow: -1px 1px 14px 0px #00bFF0;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1030;
-    }
-    .navbar-name {
-        font-size: 1rem;
-    
-        color: #F23580;
-    }
-    .navbar-dark .navbar-toggler {
-        color: rgba(255,255,255,.5);
-        border-color: #000;/* border-color: rgba(255,255,255,.1); */
-    }
-    .navbar-nav .nav-item .nav-link {
-        font-weight: 500;
-        font-size: 1.1rem;
-        color:#6e7175; /* Default link color */
-        transition: color 0.3s; /* Add a smooth transition for color change */
-    }
-    .navbar-nav .nav-item .nav-link:hover {
-        color: #00BFF0; /* Change the color to your desired hover color */
-    }
-    
-        .menu-icon-img img {
-            width: 50px;
-        }
-        .bg-dark {
-            background-color: #000 !important;
-        }
-    body {
-        background-color: black;
-    }
-    .row {
-        justify-content: center;
-        width: 100%;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .row-1 {
-        margin-top: 24%;
-        color: #F23580;
-        font-weight: 400;
-        font-size: 1.3rem;
-    }
-    .row-1 img{
-      
-            justify-content: center;
-            margin-right: auto;
-            margin-left: auto;
-            width: 90%;
-        
-    }
-    .small, small {
-        color: #00BFF0;
-      
-        font-size: .86rem;
-        font-weight: 400;
-    }
-     .col-md-4 {
-        color: white;
-        position: relative;
-        width: 33%;
-        /* padding-right: 15px; */
-        /* padding-left: 15px; */
-    }
-        .card {
-          height: 100%;
-            position: relative;
-            background-color: #000;
-            border-radius: 0.25rem;
-            border: 1px solid #00bff038;
-            padding: 10px;
-        }
-        .card-body {
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-            min-height: 1px;
-            padding: 0px;
-        } 
-        
-        .card-text {
-            padding: 4px;
-            font-size: 0.85rem;
-        }
-   
-        .card-title {
-            font-weight: 500;
-            color: #F23580;
-            font-size: 1rem;
-        }
-        
-        .row-2, .row-3, .row-4 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 0;
-            padding: 2%;
-            color: white;
-        }
-        
-        .row-5 {
-            /* font-weight: 100; */
-            padding: 10%;
-            color: #00BFF0;
-        }
-        .row-6 {
-        position: relative;
-        width: 50%;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .col-md-6 { width: 48%;}
-    .col-md-6-title {
-        padding-bottom: 12%;
-        color: #F23580;
-            font-size: 1.3rem;
-            font-weight: 500;
-        
-    }
-    .col-md-6-text {
-    
-        text-wrap: wrap;
-        color: white;
-    
-}
-    .col-md-6-img img{
-        width: 100%;
-    }
-
-    .row.footer {
-        margin-right: 0;
-        margin-left: 0;
-        position: absolute;
-         width: 100%;
-        
-    }
-    .footer {
-     
-        box-shadow: -1px 1px 14px 0px #00BFF0;
-        width: 100%;
-        background-color: #000;
-    }
-    .footer-content {
-        width: 100%;
-    }
     
     
-    /* Add this CSS to your existing stylesheet */
-    
-    #footer-image {
-        margin-top: 60px;
-        width: 110px;
-    }
-    
-    .footer-text {
-        padding: 10px;
-        text-align: right;
-        font-size: 10px;
-        color: #495057;
-    }
-    /* Style for the footer links */
-    .footer-links {
-        list-style-type: none;
-        
-    }
-    
-    .footer-links li {
-        margin-bottom: 10px;
-    }
-    
-    .footer-links a {
-        text-decoration: none;
-        color: #f23580;
-        transition: text-decoration 0.3s; /* Add a smooth transition effect */
-    }
-    
-    .footer-links a:hover {
-        text-decoration: underline; /* Underline the link on hover */
-        color: #00BFF0; /* Change the link color on hover */
-    }
-    .container-fluid footer img {
-        margin-left: 37%;
-        justify-content: center;
-        width: 25%;
-        margin-top: -63px;
-    }
-    .row.footer {
-       
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            /* margin-right: -15px; */
-            /* margin-left: -15px; */
-        
-    }
-    dl, ol, ul {
-        margin-top: 0;
-        margin-bottom: -4rem;
-    }
-}
-@media screen and (min-width:601px) and (max-width:750px) {
-    
-    
-    .navbar {
-        box-shadow: -1px 1px 14px 0px #00bFF0;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1030;
-    }
-    .navbar-name {
-        font-size: 1rem;
-    
-        color: #F23580;
-    }
-    .navbar-dark .navbar-toggler {
-        color: rgba(255,255,255,.5);
-        border-color: #000;/* border-color: rgba(255,255,255,.1); */
-    }
-    .navbar-nav .nav-item .nav-link {
-        font-weight: 500;
-        font-size: 1.1rem;
-        color:#6e7175; /* Default link color */
-        transition: color 0.3s; /* Add a smooth transition for color change */
-    }
-    .navbar-nav .nav-item .nav-link:hover {
-        color: #00BFF0; /* Change the color to your desired hover color */
-    }
-    
-        .menu-icon-img img {
-            width: 50px;
-        }
-        .bg-dark {
-            background-color: #000 !important;
-        }
-    body {
-        background-color: black;
-    }
-}
-@media screen and (min-width:751px)   and (max-width: 1023px) {
-    
-    .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;}
-       
-
-
+@media screen and (min-width: 751px) and (max-width: 950px){
 .navbar {
     box-shadow: -1px 1px 14px 0px #00bFF0;
     position: fixed;
@@ -535,58 +560,441 @@ dl, ol, ul {
 body {
     background-color: black;
 }
-     
-        /* Your existing footer styles */
-        .footer {padding-top: 22%;
-         
-            box-shadow: -1px 1px 14px 0px #00BFF0;
-       
-            background-color: #000;
-        }
+.row {
+    justify-content: center;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-1 {
+    width: 100%;
+    margin-top: 36%;
+    color: #F23580;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.row-1 img{
+  
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    
+}
+.row-1-img p {
+    padding: 2%;
+}
+.small, small {
+    color: #00BFF0;
+  
+    font-size: .86rem;
+    font-weight: 400;
+}
+ .col-md-4 {
+    color: white;
+    position: relative;}
+ 
+    .card-1 {
+        margin-left:54%;
+        /* justify-content: right; */
+        margin-top: -469px;
+        /* height: 14%; */
+        position: relative;
+        background-color: #000;
+        border-radius: 0.25rem;
+        border: 1px solid #00bff038;
+        padding: 10px;
+        width: 70%;
+        color: white;
+    }
+    .card-2 {
+        margin-left: 54%;
+        /* justify-content: right; */
+      
+        /* height: 14%; */
+        position: relative;
+        background-color: #000;
+        border-radius: 0.25rem;
+        border: 1px solid #00bff038;
+        padding: 10px;
+        width: 70%;
+        color: white;
+    }
+    .card-3 {
+        margin-left: 54%;
+        /* justify-content: right; */
+       color: white;
+        /* height: 14%; */
+        position: relative;
+        background-color: #000;
+        border-radius: 0.25rem;
+        border: 1px solid #00bff038;
+        padding: 10px;
+        width: 70%;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0px;
+    } 
+    
+    .card-text {
+        padding: 2%;
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-weight: 500;
+        color: #F23580;
+        font-size: 1.5rem;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding: 0;
+        margin: 0; 
+    }
+
+    .row-1-img p{
+      
+            font-size: 1.1rem;
+            padding: 4%;
         
-        
-        /* Add this CSS to your existing stylesheet */
-        
-        #footer-image {
-            width: 170px;
+    }
+    .row-2 {
+        margin-left: 51%;
+        margin-top: -617px;
+        width: 60%;
+        /* padding-left: 48%; */
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    
+     .row-3, .row-4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+        padding: 2%;
+        color: white;
+    }
+    
+    .row-5 {
+        /* font-weight: 100; */
+        padding: 10%;
+        color: #00BFF0;
+           margin-right: auto;
+            margin-left: auto;
+            width: 96%;
            
         }
-        .footer-content {
-            width: 100%;
-            padding: 30px;
-        }
-        
-        .footer-text {
-            text-align: right;
-            font-size: 14px;
-            color: #495057;
-        }
-        /* Style for the footer links */
-        .footer-links {
-            list-style-type: none;
-            padding: 0;
-        }
-        
-        .footer-links li {
-            margin-bottom: 10px;
-        }
-        
-        .footer-links a {
-            text-decoration: none;
-            color: #f23580;
-            transition: text-decoration 0.3s; /* Add a smooth transition effect */
-        }
-        
-        .footer-links a:hover {
-            text-decoration: underline; /* Underline the link on hover */
-            color: #00BFF0; /* Change the link color on hover */
-        }
-        .container-fluid footer img {
-            margin-left: 37%;
-            justify-content: center;
-            width: 25%;
-            margin-top: -63px;
-        }
+    .row-6 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-6 { width: 100%;}
+.col-md-6.title {
+    margin-top: -70px;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #F23580;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.col-md-6 p {
+    width: 50%;
+}
+.col-md-6\.title {
+    color: #F23580;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.col-md-6-text {
+
+    text-wrap: wrap;
+    color: white;
+
+}
+
+.col-md-6-img img {
+    width: 36%;
+}
+
+.row.footer {
+    margin-right: 0;
+    margin-left: 0;
+    position: absolute;
+     width: 100%;
+    
+}
+.footer {
+ 
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+    width: 100%;
+    background-color: #000;
+}
+.footer-content {
+    width: 100%;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    margin-top: 60px;
+    width: 110px;
+}
+
+.footer-text {
+    padding: 10px;
+    text-align: right;
+    font-size: 10px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
+.row.footer {
+   
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* margin-right: -15px; */
+        /* margin-left: -15px; */
+    
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: -4rem;
+}
+}
+@media screen and (min-width: 951px) and (max-width:1023px)
+{ body {
+    background-color: black;
+  }
+  .menu-icon-img img {
+      width: 46px;
+  }
+  .bg-dark {
+      background-color: #000 !important;
+  }
+.menu-icon-img {   width: 38px}
+body {
+  background-color: black;
+}
+
+.navbar {
+  box-shadow: -1px 1px 14px 0px #00bFF0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-name {
+  /* font-family: cinzel; */
+  font-size: 1.2rem;
+  color: #F23580;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: #000;/* border-color: rgba(255,255,255,.1); */
+}
+.navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color:#6e7175; /* Default link color */
+  transition: color 0.3s; /* Add a smooth transition for color change */
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #00BFF0; /* Change the color to your desired hover color */
+}
+.navbar-expand-lg .navbar-collapse {
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+.navbar.navbar-expand-lg.navbar-dark.fixed-top {
+   height: 78px;
+}
+.bg-dark {
+  background-color: #000!important;
+}
+.menu-icon-img img {
+  width: 50px;
+}
+.menu-icon-img img {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+
+.menu-icon-img:hover img {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.h5, h5 { color: #F23580;
+   font-weight: 500;
+   font-size: 1.8rem;
+}
+   .row {
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       margin-right: -15px;
+       margin-left: -15px;
+       flex-direction: column;
+   }
+   .row-1 {
+       margin-top: 10%;
+   }
+   .row-1-img p{
+     
+           font-size: 1.1rem;
+           padding: 4%;
+       
+   }
+   .row-2 {
+       margin-top: -656px;
+       width: 100%;
+       padding-left: 48%;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+   .col-md-4 {
+       width: 100%; /* Make each column take the full width */
+       margin-right: 0; /* Remove any right margin */
+       max-width: 100%;
+   }
+   .col-md-6 {
+       -ms-flex: 0 0 50%;
+       flex: 0 0 50%;
+       max-width: 101%;
+   }
+   .col-md-6\.title {
+       padding: 2%;
+       color: #F23580;
+       font-weight: 500;
+       font-size: 2rem;
+   }
+ 
+   .card {
+       color: white;
+       position: relative;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       min-width: 0;
+       word-wrap: break-word;
+       background-color: black;
+       background-clip: border-box;
+       border: 1px solid rgba(0,0,0,.125);
+       border-radius: .25rem;
+   }
+   .card-body {
+       -ms-flex: 1 1 auto;
+       flex: 1 1 auto;
+       min-height: 1px;
+       padding: 0.25rem;
+   }
+   .card-text{
+       font-size: .85rem;
+   }
+   .text {
+      
+           font-size: 1.1rem;
+           padding: 4%;
+       
+   }
+   .row-5 {
+       margin-right: auto;
+       margin-left: auto;
+       margin-top: 34%;
+       color: #65cbf9;
+       width: 80%;
+       text-align: left;
+   }
+.footer {margin-top:3%;
+    
+   box-shadow: -1px 1px 14px 0px #00BFF0;
+
+   background-color: #000;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+   width: 170px;
+  
+}
+
+.footer-text {
+   font-size: 12px;
+   color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+   list-style-type: none;
+   padding-top: 18%;
+}
+.footer-links li {
+   margin-bottom: 10px;
+}
+
+.footer-links a {
+   text-decoration: none;
+   color: #f23580;
+   transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+   text-decoration: underline; /* Underline the link on hover */
+   color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+   margin-left: 37%;
+   justify-content: center;
+   width: 25%;
+   margin-top: -63px;
+}
+
+}
+
 }
 @media screen and (min-width:1024px ){
                 
@@ -672,6 +1080,12 @@ body {
     .row-1 {
         margin-top: 10%;
     }
+    .row-1-img p{
+      
+            font-size: 1.1rem;
+            padding: 4%;
+        
+    }
     .row-2 {
         margin-top: -656px;
         width: 100%;
@@ -690,7 +1104,7 @@ body {
         flex: 0 0 50%;
         max-width: 101%;
     }
-    .col-md-6.title {
+    .col-md-6\.title {
         padding: 2%;
         color: #F23580;
         font-weight: 500;
@@ -720,10 +1134,16 @@ body {
     .card-text{
         font-size: .85rem;
     }
+    .text {
+       
+            font-size: 1.1rem;
+            padding: 4%;
+        
+    }
     .row-5 {
         margin-right: auto;
         margin-left: auto;
-        margin-top: 8%;
+        margin-top: 34%;
         color: #65cbf9;
         width: 80%;
         text-align: left;
