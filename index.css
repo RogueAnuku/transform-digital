@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    position: relative;
+   
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -73,13 +73,17 @@ body {
 }
 
 .row-1 {
-    margin-top: 24%;
+    text-align: center;
+    margin-top: 28%;
     color: #F23580;
     font-weight: 400;
     font-size: 1.3rem;
 }
+.row-1.title p {
+    padding: 2%;
+}
 .row-1 img {
-    padding-left: 10%;
+    padding-left: 4%;
     justify-content: center;
     /* margin-right: auto; */
     margin-left: auto;
@@ -113,9 +117,9 @@ body {
     .col-md-6.title {
         text-align: center;
         width: 100%;
-        margin-top: -49px;
+        margin-top: -96px;
         color: #F23580;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         padding-bottom: 8%;
         font-weight: 500;
     }
@@ -203,6 +207,10 @@ body {
 .card-body-2 {
     color: white;
 }
+.card-5 {
+    color: white;
+}
+.card-6 {color: white;}
 dl, ol, ul {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -264,7 +272,8 @@ dl, ol, ul {
     margin-top: -63px;
 }
 }
-@media screen and (min-width:451px) and (max-width:750px){
+
+@media screen and (min-width:481px) and (max-width:750px){
 
   .menu-icon-img img {
         width: 46px;
@@ -278,7 +287,7 @@ body {
 }
 
 .navbar {
-    position: relative;
+ 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -290,10 +299,11 @@ body {
   
         box-shadow: -1px 1px 14px 0px #00bFF0;}
       
-.navbar-name {
-    font-size: .75rem;
-    color: #F23580;
-}
+        .navbar-name {
+            font-weight: 500;
+            font-size: 1rem;
+            color: #F23580;
+        }
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.5);
     border-color: #000;/* border-color: rgba(255,255,255,.1); */
@@ -343,13 +353,17 @@ body {
     font-weight: 400;
     font-size: 1.3rem;
 }
-.row-1 img{
-  
-        justify-content: center;
-        margin-right: auto;
-        margin-left: auto;
-        width: 90%;
-    
+.row-1.title p {
+    padding: 3%;
+    text-align: center;
+    font-size: 2rem;
+}
+.row-1 img {
+    margin-left: 8%;
+    justify-content: center;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    width: 90%;
 }
 .row-2, .row-3, .row-4 {
     width: 100%; /* Make the cards take the full width */
@@ -358,11 +372,12 @@ body {
     color: white;
 }
 .small, small {
+    width: 100%;
     color: #00BFF0;
-  
-    font-size: .86rem;
+    font-size: 1rem;
     font-weight: 400;
 }
+
 .col-md-6 {
     
         padding: 2%;
@@ -382,20 +397,31 @@ body {
         width: 100%;
         margin-top: -81px;
         color: #F23580;
-        font-size: 1.2rem;
+        font-size: 2rem;
         padding-bottom: 8%;
+        /* font-weight: 300; */
+    }  
+    .col-md-6\.title {
+        font-size: 1.6rem;
+        color: #F23580;
         font-weight: 500;
+        padding: 2%;
+    }
+    .col-md-6-title {
+        padding: 5%;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: #00BFF0;
     }
 .col-md-6-text {
-    
+    font-size: 1.1rem;
         text-wrap: wrap;
         color: white;
     
 }
-.col-md-6 p{
-   
-        padding-left: 30%;
-  
+.col-md-6 p {
+    padding: 2%;
+    /* padding-left: 30%; */
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -435,7 +461,18 @@ body {
     
     border-radius: .25rem;
 }
-   
+.card-3 {
+
+}
+.card-4 {
+
+}
+.card-5 {color: white;
+
+}
+.card-6 {color: white;}
+
+
 
 .card-body {
     color: white;
@@ -445,25 +482,22 @@ body {
     padding: 1.25rem;
 }
 .card-text {
-    font-size: .75rem;
+    font-size: 1.3rem;
 }
 .h5, h5 {
     color: #F23580;
     font-size: 1.25rem;
 }
 .row-5 {
-  color: #00BFF0;
-        font-weight: 100;
-        padding: 4%;
-    
+    text-align: center;
+    font-size: 1.2rem;
+    color: #00BFF0;
+    font-weight: 400;
+    padding: 14%;
 }
 dl, ol, ul {
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-.card-text:last-child {
-    margin-bottom: 0;
-    font-size: .75rem;
 }
 
 .footer {
@@ -523,7 +557,7 @@ dl, ol, ul {
 }
     
     
-@media screen and (min-width: 751px) and (max-width: 950px){
+@media screen and (min-width: 751px) and (max-width: 767px){
 .navbar {
     box-shadow: -1px 1px 14px 0px #00bFF0;
     position: fixed;
@@ -536,6 +570,15 @@ dl, ol, ul {
     font-size: 1rem;
 
     color: #F23580;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.5);
@@ -571,18 +614,22 @@ body {
     margin-left: auto;
 }
 .row-1 {
-    width: 100%;
-    margin-top: 36%;
-    color: #F23580;
+    margin-top: 14%;
+    color: white;
     font-weight: 400;
     font-size: 1.3rem;
 }
-.row-1 img{
-  
-        margin-right: auto;
-        margin-left: auto;
-        width: 50%;
+.row-1.title p{
     
+        font-size: 2rem;
+        padding: 4%;
+        text-align: center;
+       
+}
+.row-1 img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 52%;
 }
 .row-1-img p {
     padding: 2%;
@@ -598,42 +645,41 @@ body {
     position: relative;}
  
     .card-1 {
-        margin-left:54%;
+        /* padding-bottom: 5%; */
+        margin-left: 52%;
         /* justify-content: right; */
-        margin-top: -469px;
+        margin-top: -593px;
         /* height: 14%; */
         position: relative;
         background-color: #000;
         border-radius: 0.25rem;
-        border: 1px solid #00bff038;
-        padding: 10px;
-        width: 70%;
+        padding: 4%;
+        width: 52%;
         color: white;
     }
     .card-2 {
-        margin-left: 54%;
+        margin-left: 52%;
         /* justify-content: right; */
-      
         /* height: 14%; */
         position: relative;
         background-color: #000;
         border-radius: 0.25rem;
-        border: 1px solid #00bff038;
-        padding: 10px;
-        width: 70%;
+      
+        padding: 4%;
+        width: 52%;
         color: white;
     }
     .card-3 {
-        margin-left: 54%;
+        margin-left: 52%;
         /* justify-content: right; */
        color: white;
         /* height: 14%; */
         position: relative;
         background-color: #000;
         border-radius: 0.25rem;
-        border: 1px solid #00bff038;
-        padding: 10px;
-        width: 70%;
+       
+        padding: 4%;
+        width: 52%;
     }
     .card-body {
         -ms-flex: 1 1 auto;
@@ -652,12 +698,15 @@ body {
         color: #F23580;
         font-size: 1.5rem;
     }
+    .container-1{ 
+        padding: 4%;
+    }
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         width: 100%;
         padding: 0;
         margin: 0; 
     }
-
+ 
     .row-1-img p{
       
             font-size: 1.1rem;
@@ -684,14 +733,14 @@ body {
     }
     
     .row-5 {
+        text-align: center;
         /* font-weight: 100; */
-        padding: 10%;
+        padding: 6%;
         color: #00BFF0;
-           margin-right: auto;
-            margin-left: auto;
-            width: 96%;
-           
-        }
+        margin-right: auto;
+        margin-left: auto;
+        width: 72%;
+    }
     .row-6 {
     position: relative;
     width: 50%;
@@ -723,7 +772,7 @@ body {
 }
 
 .col-md-6-img img {
-    width: 36%;
+    width: 46%;
 }
 
 .row.footer {
@@ -798,7 +847,8 @@ dl, ol, ul {
     margin-bottom: -4rem;
 }
 }
-@media screen and (min-width: 951px) and (max-width:1023px)
+
+@media screen and (min-width: 768px) and (max-width:1023px)
 { body {
     background-color: black;
   }
@@ -995,7 +1045,7 @@ body {
 
 }
 
-}
+
 @media screen and (min-width:1024px ){
                 
        
@@ -1078,8 +1128,17 @@ body {
         flex-direction: column;
     }
     .row-1 {
-        margin-top: 10%;
+        padding: 2%;
+        margin-top: 4%;
+        color: white;
+        font-weight: 400;
+        font-size: 1.3rem;
     }
+    .row-1.title p{text-align: center;
+        color: #F23580;
+        font-size: 2rem;
+    font-weight: 500;}
+
     .row-1-img p{
       
             font-size: 1.1rem;
@@ -1102,15 +1161,50 @@ body {
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 101%;
+        max-width:48%;}
+.col-md-6-{
+   
+        padding-bottom: 4%;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #00BFF0;
+    }
+.col-md-6-title {
+    padding-bottom: 6%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #00BFF0;
+}
+.col-md-6.\32 {
+    max-width: 54%;
+}
+    .col-md-6.\33 {
+        padding: 8%;
+        margin-top: -777px;
+        font-size: 1.1rem;
+        color: white;
+        margin-left: 45%;
+    }
+    .col-md-6-img {margin-top: 
+        -84px;
+    }
+    .col-md-6-img img {
+        margin-top: 16%;
+        width: 70%;
+        margin-left: 12%;
     }
     .col-md-6\.title {
+        margin-top: 25%;
         padding: 2%;
         color: #F23580;
         font-weight: 500;
         font-size: 2rem;
     }
-  
+    .small, small {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #00BFF0;
+    }
     .card {
         color: white;
         position: relative;
@@ -1126,13 +1220,19 @@ body {
         border-radius: .25rem;
     }
     .card-body {
+        margin-left: 54%;
+        width: 42%;
+        /* margin-top: -704px; */
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         min-height: 1px;
-        padding: 0.25rem;
+        padding: 2%;
     }
     .card-text{
-        font-size: .85rem;
+        font-size: 1rem;
+    }
+    .card-1 {
+        margin-top: -688px;
     }
     .text {
        
@@ -1141,12 +1241,16 @@ body {
         
     }
     .row-5 {
+        font-weight: 500;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 34%;
+        margin-top: 30%;
         color: #65cbf9;
-        width: 80%;
-        text-align: left;
+        width: 58%;
+        text-align: center;
+    }
+    .row-6 {
+        margin-top: 28%;
     }
 .footer {margin-top:3%;
      
