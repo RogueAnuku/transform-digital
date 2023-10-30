@@ -2036,7 +2036,7 @@ body {
     }
     .row.row-15 img{
        
-            margin-left: 68%;
+            margin-left:52%;
             /* padding-left: 8%; */
             width: 8%;
         
@@ -2046,6 +2046,17 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex-direction: row;
+    }
+    .row.row-17 {
+       
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
+        
     }
     .row.footer {
       
