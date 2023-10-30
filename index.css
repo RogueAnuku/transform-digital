@@ -105,7 +105,8 @@ body {
     
         padding: 2%;
         position: relative;
-        width: 50%;
+        width: 58%;
+        color: white;
         /* padding-right: 15px; */
         /* padding-left: 15px; */
     }
@@ -296,25 +297,117 @@ dl, ol, ul {
             height: auto;
             margin-right: 10px;
         }
-      .row-10-title {
-        padding: 4%;
-    color: #F23580;
+        .carousel-title {
+            margin-top: 8%;
+            padding: 6%;
+            color: #F23580;
+            font-size: 1.8rem;
             font-weight: 500;
+        }
+        .carousel-inner {
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        .row-7-title  {
+            padding: 2%;
             font-size: 1.6rem;
+            font-weight: 500;
+            color: #F23580;
+        }
+        .row-7 p {
+           
+                color: white;
+                padding: 2%;
+            }
+        .row-8-title {
+          color: #F23580;
+                font-size: 1.6rem;
+                padding: 2%;
+                font-weight: 500;
+            
+        }
+        .row-8 p{
+          
+                color: white;
+                padding: 2%;
+            }
+            .jumbotron {
+                font-size: 1.2rem;
+                width: 95%;
+                margin-right: auto;
+                margin-left: auto;
+                color: #F23580;
+                padding: 2rem 1rem;
+                margin-bottom: 2rem;
+                background-color: #3d4142de;
+                border-radius: 1.3rem;
+                box-shadow: -1px 1px 14px 0px #00bFF0;
+            }
+            .display-4 {
+                font-size: 2rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+            .lead {
+                font-size: 1.2rem;
+                font-weight: 400;
+            }
+            .row-9-titles {
+                color: #F23580;
+                padding: 4%;
+                font-weight: 500;
+                font-size: 1.6rem;
+            }
+            .row-9 p {
+               
+                    padding: 4%;
+                  color: white;
+                    
+                }
+            .row-10-title {
+               color: #F23580;
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    padding: 4%;
+                }
+            .row-10 p {
+                
+                    font-weight: 500;
+                 color: white;
+                    padding: 4%;
+                
+            }
+            .row-11-title {
+              
+                    font-size: 1.6rem;
+                    padding: 4%;
+                    color: #F23580;
+                    font-weight: 500;
+                }
+                .row-11 p {
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    font-style: italic;
+                    /* text-decoration: blink; */
+                    text-align: center;
+                    padding: 11%;
+                    color: white;
+                }
+            .w-100 {
+                margin-right: auto;
+                margin-left: auto;
+                width: 60%!important;
+                padding-bottom: 28%;
+            }
+            .row-12 {
+                width: 60%;
+                color: white;
+                padding: 6%;
+            }
         
-      }  
-      .row-10 p {  padding: 4%;
-        color: white;
-
-      }
-      .roll-11.title {
-        color: #F23580;
-        font-weight: 500;
-        text-align: center;
-      }
-    .row-11 img{
-        width: 100%;
-    }
 
 .footer {
     margin-top: 9%;
@@ -618,7 +711,118 @@ dl, ol, ul {
     max-width: 162%;
     height: auto;
     margin-right: 10px;
-} 
+}
+.carousel-title {
+    margin-top: 8%;
+    padding: 6%;
+    color: #F23580;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.carousel-inner {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.row-7-title  {
+    padding: 2%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #F23580;
+}
+.row-7 p {
+   
+        color: white;
+        padding: 2%;
+    }
+.row-8-title {
+  color: #F23580;
+        font-size: 1.6rem;
+        padding: 2%;
+        font-weight: 500;
+    
+}
+.row-8 p{
+  
+        color: white;
+        padding: 2%;
+    }
+    .jumbotron {
+        font-size: 1.2rem;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        color: #F23580;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        background-color: #3d4142de;
+        border-radius: 1.3rem;
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+    }
+    .display-4 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .lead {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .row-9-titles {
+        color: #F23580;
+        padding: 4%;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    .row-9 p {
+       
+            padding: 4%;
+          color: white;
+            
+        }
+    .row-10-title {
+       color: #F23580;
+            font-weight: 500;
+            font-size: 1.6rem;
+            padding: 4%;
+        }
+    .row-10 p {
+        
+            font-weight: 500;
+         color: white;
+            padding: 4%;
+        
+    }
+    .row-11-title {
+      
+            font-size: 1.6rem;
+            padding: 4%;
+            color: #F23580;
+            font-weight: 500;
+        }
+        .row-11 p {
+            font-weight: 600;
+            font-size: 1.2rem;
+            font-style: italic;
+            /* text-decoration: blink; */
+            text-align: center;
+            padding: 11%;
+            color: white;
+        }
+    .w-100 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%!important;
+        padding-bottom: 28%;
+    }
+    .row-12 {
+        width: 60%;
+        color: white;
+        padding: 6%;
+    }
+
 
 .footer {
     margin-top: 9%;
@@ -923,6 +1127,111 @@ body {
     font-weight: 500;
 }
 
+.carousel-inner {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.row-7-title  {
+    padding: 2%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #F23580;
+}
+.row-7 p {
+   
+        color: white;
+        padding: 2%;
+    }
+.row-8-title {
+  color: #F23580;
+        font-size: 1.6rem;
+        padding: 2%;
+        font-weight: 500;
+    
+}
+.row-8 p{
+  
+        color: white;
+        padding: 2%;
+    }
+    .jumbotron {
+        font-size: 1.2rem;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        color: #F23580;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        background-color: #3d4142de;
+        border-radius: 1.3rem;
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+    }
+    .display-4 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .lead {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .row-9-titles {
+        color: #F23580;
+        padding: 4%;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    .row-9 p {
+       
+            padding: 4%;
+          color: white;
+            
+        }
+    .row-10-title {
+       color: #F23580;
+            font-weight: 500;
+            font-size: 1.6rem;
+            padding: 4%;
+        }
+    .row-10 p {
+        
+            font-weight: 500;
+         color: white;
+            padding: 4%;
+        
+    }
+    .row-11-title {
+      
+            font-size: 1.6rem;
+            padding: 4%;
+            color: #F23580;
+            font-weight: 500;
+        }
+        .row-11 p {
+            font-weight: 600;
+            font-size: 1.2rem;
+            font-style: italic;
+            /* text-decoration: blink; */
+            text-align: center;
+            padding: 11%;
+            color: white;
+        }
+    .w-100 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%!important;
+        padding-bottom: 28%;
+    }
+    .row-12 {
+        width: 60%;
+        color: white;
+        padding: 6%;
+    }
+
+
 .row.footer {
     margin-right: 0;
     margin-left: 0;
@@ -1167,6 +1476,117 @@ body {
     height: auto;
     margin-right: 10px;
 }
+.carousel-title {
+    margin-top: 8%;
+    padding: 6%;
+    color: #F23580;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.carousel-inner {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.row-7-title  {
+    padding: 2%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #F23580;
+}
+.row-7 p {
+   
+        color: white;
+        padding: 2%;
+    }
+.row-8-title {
+  color: #F23580;
+        font-size: 1.6rem;
+        padding: 2%;
+        font-weight: 500;
+    
+}
+.row-8 p{
+  
+        color: white;
+        padding: 2%;
+    }
+    .jumbotron {
+        font-size: 1.2rem;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        color: #F23580;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        background-color: #3d4142de;
+        border-radius: 1.3rem;
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+    }
+    .display-4 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .lead {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .row-9-titles {
+        color: #F23580;
+        padding: 4%;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    .row-9 p {
+       
+            padding: 4%;
+          color: white;
+            
+        }
+    .row-10-title {
+       color: #F23580;
+            font-weight: 500;
+            font-size: 1.6rem;
+            padding: 4%;
+        }
+    .row-10 p {
+        
+            font-weight: 500;
+         color: white;
+            padding: 4%;
+        
+    }
+    .row-11-title {
+      
+            font-size: 1.6rem;
+            padding: 4%;
+            color: #F23580;
+            font-weight: 500;
+        }
+        .row-11 p {
+            font-weight: 600;
+            font-size: 1.2rem;
+            font-style: italic;
+            /* text-decoration: blink; */
+            text-align: center;
+            padding: 11%;
+            color: white;
+        }
+    .w-100 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%!important;
+        padding-bottom: 28%;
+    }
+    .row-12 {
+        width: 60%;
+        color: white;
+        padding: 6%;
+    }
+
 .footer {margin-top:3%;
     
    box-shadow: -1px 1px 14px 0px #00BFF0;
@@ -1330,7 +1750,11 @@ body {
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width:48%;}
+        max-width:48%;
+    padding: 4%;}
+    .col-md-6 p {
+        color: white;
+    }
 .col-md-6-{
    
         padding-bottom: 4%;
@@ -1338,18 +1762,18 @@ body {
         font-size: 1.4rem;
         color: #00BFF0;
     }
-.col-md-6-title {
-    padding-bottom: 6%;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #00BFF0;
-}
+    .col-md-6-title {
+        padding-bottom: 6%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #00BFF0;
+    }
 .col-md-6.\32 {
     max-width: 54%;
 }
 .col-md-6.\33 {
     padding: 4%;
-    margin-top: -972px;
+    margin-top: -700px;
     font-size: 1.1rem;
     color: white;
     margin-left: 50%;
@@ -1359,7 +1783,7 @@ body {
     }
     .col-md-6-img img {
         margin-top: 16%;
-        width: 70%;
+        width: 53%;
         margin-left: 12%;
     }
     .col-md-6\.title {
@@ -1402,7 +1826,7 @@ body {
         font-size: 1rem;
     }
     .card-1 {
-        margin-top: -794px;
+        margin-top: -693px;
     }
     .card-5 {
         width: 46%;
@@ -1411,9 +1835,9 @@ body {
         color: white
     }
     .card-6 {
-       width: 46%;
-       margin-left: 50%;
-       margin-top: -180px;
+        width: 46%;
+        margin-left: 50%;
+        margin-top: -100px;
     }
     .card-body-6 {
         color: white;
@@ -1428,13 +1852,13 @@ body {
         font-weight: 500;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 6%;
+        margin-top: 22%;
         color: #65cbf9;
         width: 58%;
         text-align: center;
     }
     .row-6 {
-        margin-top: 28%;
+        margin-top: 40%;
     }
 
     .horizontal-scroll-container {
@@ -1496,7 +1920,8 @@ body {
             padding: 2%;
         }
         .jumbotron {
-            width: 90%;
+            font-size: 1.2rem;
+            width: 95%;
             margin-right: auto;
             margin-left: auto;
             color: #F23580;
@@ -1512,8 +1937,8 @@ body {
             line-height: 1.2;
         }
         .lead {
-            font-size: 1rem;
-            font-weight: 300;
+            font-size: 1.2rem;
+            font-weight: 400;
         }
         .row-9-titles {
             color: #F23580;
@@ -1544,20 +1969,84 @@ body {
           
                 font-size: 1.6rem;
                 padding: 4%;
-                text-align: right;
+                color: #F23580;
                 font-weight: 500;
             }
-        .row-11 p{
-            padding: 4%;
-            color: white;
-        }
+            .row-11 p {
+                font-weight: 600;
+                font-size: 1.2rem;
+                font-style: italic;
+                /* text-decoration: blink; */
+                text-align: center;
+                padding: 11%;
+                color: white;
+            }
         .w-100 {
             margin-right: auto;
             margin-left: auto;
             width: 60%!important;
             padding-bottom: 28%;
         }
-    
+        .row-12 {
+            width: 60%;
+            color: white;
+            padding: 6%;
+        }
+    .row.row-13{
+       
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
+        
+    }
+    .h1, h1 {
+        font-size: 1.6rem;
+        color: #F23580;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .h2, h2 {
+        padding: 4%;
+        text-align: center;
+        font-weight: 300;
+        color:#00BFF0;    
+        font-size: 1.3rem;
+    }
+    .row.row-14 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: row;
+        margin-top: 6%;
+    }
+    .row.row-14 iframe{
+     
+            width: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        
+
+    }
+    .row.row-15 img{
+       
+            margin-left: 68%;
+            /* padding-left: 8%; */
+            width: 8%;
+        
+    }
+    .row.row-16 {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     .row.footer {
       
             display: -ms-flexbox;
