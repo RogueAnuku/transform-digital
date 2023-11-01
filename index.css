@@ -105,7 +105,7 @@ body {
     
         padding: 2%;
         position: relative;
-        width: 58%;
+     
         color: white;
         /* padding-right: 15px; */
         /* padding-left: 15px; */
@@ -403,12 +403,94 @@ dl, ol, ul {
                 padding-bottom: 28%;
             }
             .row-12 {
-                width: 60%;
+           
                 color: white;
                 padding: 6%;
             }
+       
+    .row.row-13{
+       
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
         
-
+    }
+    .h1, h1 {
+        text-align: center;
+        font-size: 1.6rem;
+        color: #F23580;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .h2, h2 {
+        padding: 4%;
+        text-align: center;
+        font-weight: 300;
+        color:#00BFF0;    
+        font-size: 1.3rem;
+    }
+    .row.row-14 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: row;
+        margin-top: 6%;
+    }
+    .row.row-14 iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .row.row-15 img{
+       
+            margin-left:52%;
+            /* padding-left: 8%; */
+            width: 8%;
+        
+    }
+    .row.row-16 {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .row.row-17 {
+       width: 100%;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
+        
+    }
+    .row.row-17 p {
+        margin-top: -30px;
+        text-align: center;
+        width: 100%;
+    }
+    .row.row-18 p {
+        color: white;
+        text-align: center;
+        padding: 10%;
+    }
+    .row.row-18-title {
+        color: #F23580;
+            padding: 8%;
+            font-weight: 500;
+            font-size: 1.6rem;
+        
+    }
 .footer {
     margin-top: 9%;
     box-shadow: -1px 1px 14px 0px #00BFF0;
@@ -425,7 +507,7 @@ dl, ol, ul {
 #footer-image {
     padding-left: 70%;
     justify-content: right;
-    margin-top: -415px;
+    margin-top: -231px;
     width: 106px;
 }
 
@@ -692,6 +774,7 @@ dl, ol, ul {
     margin-bottom: 1rem;
 }
 .horizontal-scroll-container {
+    height: 500px;
     border-radius: 16px;
     padding: 2%;
     margin-right: auto;
@@ -708,7 +791,7 @@ dl, ol, ul {
 .horizontal-scroll-container img {
     margin-top: -410px;
     padding: 4%;
-    max-width: 162%;
+    max-width: 235%;
     height: auto;
     margin-right: 10px;
 }
@@ -822,7 +905,93 @@ dl, ol, ul {
         color: white;
         padding: 6%;
     }
+ 
+.row.row-13{padding: 4%;
+color: white;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
 
+}
+.h1, h1 {
+font-size: 1.6rem;
+color: #F23580;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+}
+.h2, h2 {
+padding: 4%;
+text-align: center;
+font-weight: 300;
+color:#00BFF0;    
+font-size: 1.3rem;
+}
+.row.row-14 {padding: 4%;
+    color: white;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+flex-direction: row;
+margin-top: 6%;
+}
+.row.row-14 iframe{
+
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+
+}
+.row.row-15 img{
+
+    margin-left:52%;
+    /* padding-left: 8%; */
+    width: 8%;
+
+}
+.row.row-16 {
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.row.row-17 {
+    width: 100%;
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         margin-right: -15px;
+         margin-left: -15px;
+         flex-direction: row;
+     
+ }
+ .row.row-17 p {
+    margin-top: -90px;
+    text-align: center;
+    width: 100%;
+}
+.row.row-18 p {
+    margin-top: -100px;
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+ .row.row-18-title {
+     color: #F23580;
+         padding: 8%;
+         font-weight: 500;
+         font-size: 1.6rem;
+     
+ }
 
 .footer {
     margin-top: 9%;
@@ -1087,12 +1256,25 @@ body {
         width: 72%;
     }
     .row-6 {
-    position: relative;
-    width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
+        color: white;
+        /* position: relative; */
+        /* width: 50%; */
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+.col-md-6 {
+    color: white;
+    width: 50%;}
+.col-md-6 p {
+    width: 87%;
 }
-.col-md-6 { width: 100%;}
+.col-md-6-title {
+   
+        padding-bottom: 4%;
+        font-size: 1.6rem;
+        color: #00BFF0;
+    
+}
 .col-md-6.title {
     margin-top: -70px;
     text-align: center;
@@ -1101,9 +1283,7 @@ body {
     font-size: 2rem;
     font-weight: 500;
 }
-.col-md-6 p {
-    width: 50%;
-}
+
 .col-md-6\.title {
     color: #F23580;
     font-size: 1.8rem;
@@ -1117,8 +1297,9 @@ body {
 }
 
 .col-md-6-img img {
-    width: 46%;
+    width: 89%;
 }
+
 .carousel-title {
     color: #F23580;
     padding: 4%;
@@ -1143,7 +1324,7 @@ body {
 .row-7 p {
    
         color: white;
-        padding: 2%;
+        padding: 4%;
     }
 .row-8-title {
   color: #F23580;
@@ -1155,11 +1336,11 @@ body {
 .row-8 p{
   
         color: white;
-        padding: 2%;
+        padding: 4%;
     }
     .jumbotron {
         font-size: 1.2rem;
-        width: 95%;
+        width: 72%;
         margin-right: auto;
         margin-left: auto;
         color: #F23580;
@@ -1184,8 +1365,8 @@ body {
         font-weight: 500;
         font-size: 1.6rem;
     }
-    .row-9 p {
-       
+    .row-9-text {
+       margin-top: -50px;
             padding: 4%;
           color: white;
             
@@ -1226,11 +1407,96 @@ body {
         padding-bottom: 28%;
     }
     .row-12 {
-        width: 60%;
+      
         color: white;
         padding: 6%;
     }
+   
+.row.row-13{
+    padding: 6%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
 
+}
+.h1, h1 {
+font-size: 1.6rem;
+color: #F23580;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+}
+p {font-size: 1.2rem;
+    padding: 4%;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.h2, h2 {
+padding: 4%;
+text-align: center;
+font-weight: 300;
+color:#00BFF0;    
+font-size: 1.3rem;
+}
+.row.row-14 {
+    padding: 6%;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+flex-direction: row;
+margin-top: 6%;
+}
+.row.row-14 iframe{
+
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+
+}
+.row.row-15 img{
+
+    margin-left:52%;
+    /* padding-left: 8%; */
+    width: 8%;
+
+}
+.row.row-16 {
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.row.row-17 {
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+
+}
+.row.row-17 p {
+ 
+        padding-bottom: 6%;
+        margin-top: -112px;
+    
+}
+.row.row-17 img {
+    
+        margin-top: -124px;
+        width: 100%;
+    
+}
 
 .row.footer {
     margin-right: 0;
@@ -1253,8 +1519,10 @@ body {
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-    margin-top: 60px;
+    margin-left: 86%;
+    /* margin-top: -17px; */
     width: 110px;
+  
 }
 
 .footer-text {
@@ -1265,6 +1533,7 @@ body {
 }
 /* Style for the footer links */
 .footer-links {
+    margin-top: 50px;
     list-style-type: none;
     
 }
@@ -1586,7 +1855,73 @@ body {
         color: white;
         padding: 6%;
     }
+   
+    .row.row-13{
+       
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
+        
+    }
+    .h1, h1 {
+        font-size: 1.6rem;
+        color: #F23580;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .h2, h2 {
+        padding: 4%;
+        text-align: center;
+        font-weight: 300;
+        color:#00BFF0;    
+        font-size: 1.3rem;
+    }
+    .row.row-14 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: row;
+        margin-top: 6%;
+    }
+    .row.row-14 iframe{
+     
+            width: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        
 
+    }
+    .row.row-15 img{
+       
+            margin-left:52%;
+            /* padding-left: 8%; */
+            width: 8%;
+        
+    }
+    .row.row-16 {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .row.row-17 {
+       
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-direction: row;
+        
+    }
 .footer {margin-top:3%;
     
    box-shadow: -1px 1px 14px 0px #00BFF0;
@@ -1717,8 +2052,8 @@ body {
         flex-direction: column;
     }
     .row-1 {
-        padding: 2%;
-        margin-top: 4%;
+        padding: 3%;
+        margin-top: 6%;
         color: white;
         font-weight: 400;
         font-size: 1.3rem;
@@ -1747,11 +2082,7 @@ body {
         margin-right: 0; /* Remove any right margin */
         max-width: 100%;
     }
-    .col-md-6 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width:48%;
-    padding: 4%;}
+ 
     .col-md-6 p {
         color: white;
     }
@@ -1768,6 +2099,19 @@ body {
         font-weight: 500;
         color: #00BFF0;
     }
+    .col-md-6.\31 {
+        margin-left: 50%;
+    }
+    .col-md-6.\31 p{
+     
+            padding: 16%;
+            width: 100%;
+        }
+    .col-md-6.\31 img {
+        width: 100%;
+        
+    }
+    
 .col-md-6.\32 {
     max-width: 54%;
 }
@@ -1778,20 +2122,27 @@ body {
     color: white;
     margin-left: 50%;
 }
-   .col-md-6-img {margin-top: 
-        -84px;
-    }
-    .col-md-6-img img {
-        margin-top: 16%;
-        width: 53%;
-        margin-left: 12%;
-    }
-    .col-md-6\.title {
-        margin-top: 25%;
-        padding: 2%;
-        color: #F23580;
+   
+.col-md-6 img {
+    margin-left: -140px;
+    width: 135%;
+    /* padding-left: 23%; */
+    justify-content: center;
+}
+.col-md-6-img img {
+    margin-top: -10%;
+    width: 84%;
+    margin-left: -11%;
+}
+    .row-5 {
+        font-size: 1.2rem;
         font-weight: 500;
-        font-size: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10%;
+        color: #65cbf9;
+        width: 86%;
+        text-align: center;
     }
     .small, small {
         font-size: 1rem;
@@ -1814,19 +2165,19 @@ body {
         border-radius: .25rem;
     }
     .card-body {
-        margin-left: 54%;
-        width: 42%;
+        width: 38%;
         /* margin-top: -704px; */
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         min-height: 1px;
-        padding: 2%;
+        padding: 4%;
     }
     .card-text{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .card-1 {
-        margin-top: -693px;
+    
+        margin-top: -760px;
     }
     .card-5 {
         width: 46%;
@@ -1849,16 +2200,17 @@ body {
         
     }
     .row-5 {
+        font-size: 1.2rem;
         font-weight: 500;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 22%;
+        margin-top: 10%;
         color: #65cbf9;
-        width: 58%;
+        width: 86%;
         text-align: center;
     }
     .row-6 {
-        margin-top: 40%;
+       padding: 4%;
     }
 
     .horizontal-scroll-container {
@@ -1924,7 +2276,7 @@ body {
             width: 95%;
             margin-right: auto;
             margin-left: auto;
-            color: #F23580;
+            color: white;
             padding: 2rem 1rem;
             margin-bottom: 2rem;
             background-color: #3d4142de;
@@ -1988,7 +2340,7 @@ body {
             padding-bottom: 28%;
         }
         .row-12 {
-            width: 60%;
+        
             color: white;
             padding: 6%;
         }
@@ -2042,20 +2394,47 @@ body {
         
     }
     .row.row-16 {
+        /* width: 100%; */
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
     .row.row-17 {
+        justify-content: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: row;
+    }
+    .row.row-17 p {
+     
+            margin-top: -150px;
+            width: 100%;
+            margin-left: 6%;
        
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-            flex-direction: row;
+    }
+    .row.row-17 img{
+       
+            margin-top: -162px;
+            width: 100%;
+       
+    }
+    .row.row-18 {
+                  margin-top: 18%;
+            padding-left: 6%;
+            width: 70%;
+        
+    }
+    .row.row-18-text{
+      
+            font-size: 1.2rem;
+            color: white;
+            padding: 4%;
         
     }
     .row.footer {
