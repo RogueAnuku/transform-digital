@@ -2052,16 +2052,25 @@ body {
         flex-direction: column;
     }
     .row-1 {
+        width: 100%;
         padding: 3%;
         margin-top: 6%;
         color: white;
         font-weight: 400;
         font-size: 1.3rem;
+        display: flex;
+        justify-content: space-around;
     }
-    .row-1.title p{text-align: center;
+
+    .row-1.title p {
+        font-family: cinzel;
+        padding-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
         color: #F23580;
-        font-size: 2rem;
-    font-weight: 500;}
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
 
     .row-1-img p{
       
@@ -2069,6 +2078,7 @@ body {
             padding: 4%;
         
     }
+
     .row-2 {
         margin-top: -656px;
         width: 100%;
@@ -2087,6 +2097,20 @@ body {
             width: 100%;
             background-color: #80808038;
         
+    }
+  
+   
+    #imageCarousel .carousel-inner img {
+        max-width: 150%; /* Set the maximum width to 100% for responsiveness */
+        max-height: 150%; /* Set the maximum height to 100% for responsiveness */
+      }
+      
+
+      .w-100 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 78%!important;
+        padding-bottom: 28%;
     }
  
     .col-md-6 p {
@@ -2120,9 +2144,7 @@ body {
         font-weight: 500;
         color: #00BFF0;
     }
-    .col-md-6.\31 {
-        margin-left: 50%;
-    }
+   
     .col-md-6.\31 p{
      
             padding: 16%;
@@ -2136,15 +2158,15 @@ body {
 .col-md-6.\32 {
     max-width: 54%;
 }
-.col-md-6.\32 p {
-   
-        margin-left: 6%;
-        width: 40%;
-    
+.small.text  {
+    margin-left: 21%;
+    width: 47%;
+  
 }
+
 .col-md-6.\33 {
     /* padding: 4%; */
-    margin-top: -870px;
+    margin-top: -1046px;
     font-size: 1.1rem;
     color: white;
     margin-left: 51%;
@@ -2189,8 +2211,7 @@ body {
         border-radius: .25rem;
     }
     .card-body {
-        width: 38%;
-        /* margin-top: -704px; */
+       
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         min-height: 1px;
@@ -2199,10 +2220,7 @@ body {
     .card-text{
         font-size: 1.2rem;
     }
-    .card-1 {
-    
-        margin-top: -760px;
-    }
+   
     .card-5 {
         height: 460px;
         margin-top: 20px;
@@ -2251,6 +2269,7 @@ body {
     .row-6 {
         padding-top: 16%;
     }
+
   
     .horizontal-scroll-container {
         border-radius: 16px;
@@ -2344,7 +2363,7 @@ body {
         }
         .row-9-titles {
             color: #F23580;
-            padding: 4%;
+            padding: 6%;
             font-weight: 500;
             font-size: 1.6rem;
         }
@@ -2353,6 +2372,9 @@ body {
             padding: 6%;
             color: white;
             font-size: 1.2rem;
+        }
+        .row-10 {
+            padding-bottom: 20%;
         }
         .row-10-title {
            color: #F23580;
@@ -2373,8 +2395,8 @@ body {
                     padding: 6%;
                 
             }
-        .row-11-title {
-          
+            .row-11-title {
+                text-align: center;
                 font-size: 1.6rem;
                 padding: 4%;
                 color: #F23580;
@@ -2390,12 +2412,7 @@ body {
                 padding: 6%;
                 color: white;
             }
-        .w-100 {
-            margin-right: auto;
-            margin-left: auto;
-            width: 60%!important;
-            padding-bottom: 28%;
-        }
+      
      
         .row-12 {
             font-size: 1.2rem;
@@ -2490,41 +2507,57 @@ body {
             width: 70%;
         
     }
-    .row.row-18-text{
-      
-            font-size: 1.2rem;
-            color: white;
-            padding: 4%;
-        
+    .list-group-item {
+        font-size: 1.2rem;
+        color: white;
+        position: relative;
+        display: block;
+        padding: .75rem 4.25rem;
+        background-color: #000000;
+        border: 1px solid rgba(0,0,0,.125);
     }
-    .row.footer {
-      
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-            /* flex-direction: column; */
-        
-    }
-.footer {margin-top:3%;
-     
-    box-shadow: -1px 1px 14px 0px #00BFF0;
-
-    background-color: #000;
+ .list-group.list-group-flush {
+  
+        /* background: black; */
+        margin-right: auto;
+        margin-left: auto;
+        /* justify-content: center; */
+        width: 100%;
+  
+ }
+ .row.row-19 {
+    color: #00BFF0;
+    padding: 6%;
+ }
+ .row.footer {
+    padding: 2%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    /* flex-direction: column; */
 }
-
+    .footer {
+        margin-top: 3%;
+        box-shadow: -1px -7px 7px 1px #00bff0ad;
+        background-color: #000;
+    }
 
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-    margin-left: 70%;
+    margin-top: -317px;
+    margin-left: 84%;
     justify-content: right;
-    width: 170px;
+    width: 53px;
 }
 
 .footer-text {
+    margin-top: -57px;
+    padding: 2%;
+    text-align: right;
     font-size: 12px;
     color: #495057;
 }
