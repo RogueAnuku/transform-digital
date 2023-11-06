@@ -252,6 +252,9 @@ dl, ol, ul {
         color: white;
         padding: 6%;
     }
+    .row-8 {
+        padding: 6%;
+    }
 .row-8-title {
         color: #F23580;
     font-size: 1.6rem;
@@ -345,7 +348,7 @@ dl, ol, ul {
                 padding: 2%;
             }
             .jumbotron {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 width: 90%;
                 margin-right: auto;
                 margin-left: auto;
@@ -471,14 +474,21 @@ dl, ol, ul {
         
     }
     .row.row-16 {
-        
         padding: 6%;
         /* width: 100%; */
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+       
+        /* justify-content: center; */
+    }
+    .row-1 {
+        margin-top: 19%;
+        color: #F23580;
+        font-weight: 400;
+        font-size: 1.3rem;
+        background-color: rgb(39 37 37 / 62%);
     }
     .col-md-6-img {
        
@@ -517,9 +527,7 @@ dl, ol, ul {
         
     
     }
-    .container p {
-        width: 110%;
-    }
+   
     .list-group-item {
         width: 100%;
         /* FONT-WEIGHT: 800; */
@@ -544,9 +552,16 @@ dl, ol, ul {
   
  }
  .row.row-19 {
+    display: flex;
     color: #00BFF0;
-    padding: 6%;
- }
+    padding: 22%;
+    flex-direction: column;
+}
+a {
+    color: #00bff0;
+    text-decoration: none;
+    background-color: transparent;
+}
 .footer {
     margin-top: 9%;
     box-shadow: -1px 1px 14px 0px #00BFF0;
@@ -561,24 +576,25 @@ dl, ol, ul {
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-    padding-left: 70%;
+    margin-left: 197px;
     justify-content: right;
     margin-top: -231px;
-    width: 106px;
+    width: 153px;
 }
 
 .footer-text {
+    text-align: center;
     margin-top: -54px;
     padding: 28px;
-    text-align: right;
-    font-size: 15px;
+    /* text-align: right; */
+    font-size: 14px;
     color: #495057;
 }
 /* Style for the footer links */
 .footer-links {
     list-style-type: none;
     /* padding: 21px; */
-    font-size: .75rem;
+  
 }
 
 .footer-links li {
@@ -776,6 +792,10 @@ body {
     background-clip: border-box;
     
     border-radius: .25rem;
+}
+.card-1 {
+    margin-top: -58px;
+    padding: 4%;
 }
 .card-2 {
     padding: 4%;
@@ -1075,6 +1095,12 @@ font-size: 1.3rem;
     color: #00BFF0;
     padding: 6%;
 }
+a {
+    color: #00bff0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .list-group-item {
     font-size: 1.2rem;
     color: white;
@@ -1094,8 +1120,10 @@ font-size: 1.3rem;
 
 }
 .row.row-19 {
-color: #00BFF0;
-padding: 6%;
+    display: flex;
+    color: #00BFF0;
+    padding: 6%;
+    flex-direction: column;
 }
 
 .footer {
@@ -1112,10 +1140,11 @@ padding: 6%;
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-    padding-left: 70%;
-    justify-content: right;
-    margin-top: -415px;
-    width: 106px;
+    margin-left: 50%;
+    /* padding-left: 15%; */
+    /* justify-content: right; */
+    margin-top: -261px;
+    width: 210px;
 }
 
 .footer-text {
@@ -1128,8 +1157,7 @@ padding: 6%;
 /* Style for the footer links */
 .footer-links {
     list-style-type: none;
-    /* padding: 21px; */
-    font-size: .75rem;
+   
 }
 
 .footer-links li {
@@ -1232,10 +1260,11 @@ flex-wrap: wrap;
 }
 
 .row-1 {
-    margin-top: 20%;
+    margin-top: 19%;
     color: #F23580;
     font-weight: 400;
     font-size: 1.3rem;
+    background-color: rgb(39 37 37 / 62%);
 }
 .row-1.title p {
 font-family: cinzel;
@@ -1257,13 +1286,19 @@ padding: 2%;
 color: white;
 }
 .small, small {
-margin-top: -183px;
-margin-left: auto;
-justify-content: right;
-width: 50%;
-color: #00BFF0;
-font-size: 1rem;
-font-weight: 400;
+    margin-top: -33px;
+    margin-left: auto;
+    justify-content: right;
+    width: 50%;
+    color: #00BFF0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.col-md-2 {
+    display: none;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
 }
 .col-md-4 {
     padding: 4%;
@@ -1280,7 +1315,7 @@ font-weight: 400;
 }
 
 .col-md-6.protopersona.img img {
-width: 48%;
+    width: 192%;
 }
 
 .col-md-6.title {
@@ -1302,13 +1337,22 @@ width: 48%;
 .col-md-6-title {
     padding: 5%;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    color: #00BFF0;
+}
+.col-md-6.\33 {
+    margin-top: -712px;
+    margin-left: auto;
+    padding: 5%;
+    font-weight: 500;
+    font-size: 1.6rem;
     color: #00BFF0;
 }
 .col-md-6-text {
     font-size: 1.2rem;
     text-wrap: wrap;
     color: white;
+    padding: 6%;
 }
 .col-md-6 p {
 padding: 2%;
@@ -1329,10 +1373,26 @@ display: flex;
 flex-direction: column;
 min-width: 0;
 word-wrap: break-word;
-background-color: #000;
+
 background-clip: border-box;
 
 border-radius: .25rem;
+}
+.card-1 {
+    padding: 4%;
+    padding-bottom: 5;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  
+    background-clip: border-box;
+    border-radius: .25rem;
 }
 .card-2 {
 padding: 4%;
@@ -1346,7 +1406,7 @@ display: flex;
 flex-direction: column;
 min-width: 0;
 word-wrap: break-word;
-background-color: #000;
+
 background-clip: border-box;
 border-radius: .25rem;
 }
@@ -1380,15 +1440,16 @@ color: #F23580;
 font-size: 1.25rem;
 }
 .row-5 {
-    margin-top: -120px;
+    margin-top: 16%;
     text-align: center;
     font-size: 1.2rem;
     color: #00BFF0;
-    font-weight: 400;
+    font-weight: 500;
     padding: 6%;
 }
 .row-6 {
 padding: 6%;
+font-size: 1.1rem;
 }
 dl, ol, ul {
 margin-top: 1rem;
@@ -1410,7 +1471,7 @@ box-shadow: -1px 1px 14px 0px #00bFF0;
 }
 
 .horizontal-scroll-container img {
-margin-top: -410px;
+
 padding: 4%;
 max-width: 235%;
 height: auto;
@@ -1430,8 +1491,10 @@ position: relative;
 width: 100%;
 overflow: hidden;
 }
-.row-7 {
-padding: 6%;
+
+
+.row-7 {font-size: 1.1rem;
+padding: 4%;
 }
 .row-7-title  {
 padding: 2%;
@@ -1454,10 +1517,12 @@ color: #F23580;
     font-weight: 500;
 
 }
+
 .row-8 p{
 
     color: white;
     padding: 2%;
+    font-size: 1.2rem;
 }
 .jumbotron {
     font-size: 1.2rem;
@@ -1480,9 +1545,14 @@ color: #F23580;
     font-size: 1.2rem;
     font-weight: 400;
 }
+
 .row-9 {
     padding: 6%; 
 
+}
+.row-9-text {
+    margin-top: -52px;
+    font-size: 1.2rem;
 }
 .row-9-titles {
     color: #F23580;
@@ -1503,23 +1573,31 @@ color: #F23580;
         font-size: 1.6rem;
         padding: 4%;
     }
-.row-10 p {
-    
+    .row-10 p {
+        margin-top: -52px;
         font-weight: 500;
-     color: white;
+        color: white;
         padding: 4%;
-    
-}
+    }
 .row-11 {
     padding: 6%;
 }
+.row-11 p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: italic;
+    /* text-decoration: blink; */
+    text-align: center;
+    padding: 8%;
+    color: white;
+}
 .row-11-title {
-  
-        font-size: 1.6rem;
-        padding: 4%;
-        color: #F23580;
-        font-weight: 500;
-    }
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 4%;
+    color: #F23580;
+    font-weight: 500;
+}
     .row-11 p {
         font-weight: 600;
         font-size: 1.2rem;
@@ -1536,9 +1614,10 @@ color: #F23580;
     padding-bottom: 28%;
 }
 .row-12 {
+    margin-top: -130px;
     font-size: 1.2rem;
     color: white;
-    padding: 6%;
+    padding: 5%;
 }
 
 .row.row-13{padding: 6%;
@@ -1567,16 +1646,16 @@ color:#00BFF0;
 font-size: 1.3rem;
 }
 .row.row-14 {
-color: white;
-padding: 6%;
-display: -ms-flexbox;
-display: flex;
--ms-flex-wrap: wrap;
-flex-wrap: wrap;
-margin-right: -15px;
-margin-left: -15px;
-flex-direction: row;
-margin-top: 6%;
+    color: white;
+    padding: 6%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 6%;
+    justify-content: space-around;
 }
 .row.row-14 iframe{
 
@@ -1595,12 +1674,16 @@ margin-top: 6%;
 
 }
 .row.row-16 {
-/* width: 100%; */
-display: flex;
--ms-flex-wrap: wrap;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
+    font-weight: 500;
+    margin-right: 5%;
+    /* width: 100%; */
+    display: flex;
+    font-size: 1.2rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: #00BFF0;
 }
 .row.row-17 {
 justify-content: center;
@@ -1630,8 +1713,15 @@ width: 100%;
 
 }
 .row.row-19 {
-color: #00BFF0;
-padding: 6%;
+    display: flex;
+    color: #00BFF0;
+    padding: 6%;
+    flex-direction: column;
+}
+ a {
+    color: #00bff0;
+    text-decoration: none;
+    background-color: transparent;
 }
 .list-group-item {
 font-size: 1.2rem;
@@ -1651,58 +1741,56 @@ margin-left: auto;
 width: 100%;
 
 }
-.row.row-19 {
-color: #00BFF0;
-padding: 6%;
-}
 
-.footer {
-margin-top: 9%;
-box-shadow: -1px 1px 14px 0px #00BFF0;
-width: 111%;
-background-color: #000;
+.row.footer {
+    padding: 2%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    /* flex-direction: column; */
 }
-.footer-content {
-width: 100%;
-}
-
+    .footer {
+   
+        box-shadow: -1px -7px 7px 1px #00bff0ad;
+        background-color: #000;
+    }
 
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-padding-left: 70%;
-justify-content: right;
-margin-top: -415px;
-width: 106px;
+    margin-top: -238px;
+    margin-left: 315%;
+    justify-content: right;
+    width: 154px;
 }
-
 .footer-text {
-margin-top: -54px;
-padding: 28px;
-text-align: right;
-font-size: 15px;
-color: #495057;
+    margin-top: -57px;
+   
+    text-align: right;
+    font-size: 12px;
+    color: #495057;
 }
 /* Style for the footer links */
 .footer-links {
-list-style-type: none;
-/* padding: 21px; */
-font-size: .75rem;
+    list-style-type: none;
+    padding-top: 2%;
 }
-
 .footer-links li {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links a {
-text-decoration: none;
-color: #f23580;
-transition: text-decoration 0.3s; /* Add a smooth transition effect */
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
 }
 
 .footer-links a:hover {
-text-decoration: underline; /* Underline the link on hover */
-color: #00BFF0; /* Change the link color on hover */
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
 }
 .container-fluid footer img {
 margin-left: 37%;
@@ -1779,51 +1867,11 @@ body {
 .menu-icon-img:hover img {
    transform: scale(1.1); /* Increase the size on hover */
 }
-.card-1 {
-    padding-bottom: 5;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #000;
-    background-clip: border-box;
-    
-    border-radius: .25rem;
-}
-.card-2 {
-    padding-bottom: 5;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #000;
-    background-clip: border-box;
-    
-    border-radius: .25rem;
-}
+
+
    
 
-.card-body {
-    color: white;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-}
-.card-text {
-    text-align: left;
-    font-size: 1rem;
-}
+
 
 .h5, h5 { color: #F23580;
     font-weight: 500;
@@ -1839,20 +1887,22 @@ body {
         flex-direction: column;
     }
     .row-1.title {
+        margin-top: 6%;
         width: 100%;
     }
     .row-1 {
-        width: 50%;
-        padding: 3%;
-        margin-top: 6%;
+        padding: 4%;
+        background-color: rgb(39 37 37 / 62%);
+        /* padding: 3%; */
         color: white;
         font-weight: 400;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         display: flex;
         justify-content: space-around;
-        flex-direction: column;
+        flex-direction: row;
     }
     .row-1.title p {
+        padding-bottom: 4%;
         font-family: cinzel;
         padding-top: 5%;
         margin-right: auto;
@@ -1877,17 +1927,20 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .col-md-2 {
+        margin-left: -90px;
+        margin-top: 36%;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 6.666667%;
+    }
     .col-md-4 {
-        width: 100%; /* Make each column take the full width */
-        margin-right: 0; /* Remove any right margin */
+        margin-top: -30px;
+        width: 40%;
+        margin-right: 0;
         max-width: 100%;
     }
-    .container-1 {
-        
-            width: 100%;
-            background-color: #80808038;
-        
-    }
+   
   
    
     #imageCarousel .carousel-inner img {
@@ -1895,25 +1948,20 @@ body {
         max-height: 150%; /* Set the maximum height to 100% for responsiveness */
       }
       
-
+   
       .w-100 {
         margin-right: auto;
         margin-left: auto;
         width: 78%!important;
         padding-bottom: 28%;
     }
-    .col-md-4 {
-        margin-top: -72px;
-        width: 100%;
-        margin-right: 0;
-        max-width: 100%;
-    }
+  
  
     .col-md-6 p {
         color: white;
     }
 .col-md-6-{
-   
+    background-color: #80808038;
         padding-bottom: 4%;
         font-weight: 500;
         font-size: 1.4rem;
@@ -1979,46 +2027,18 @@ body {
     margin-left: -6%;
 }
 .col-md-8 {
-    margin-top: -60px;
-}
-   
-    .small, small {
+    padding-left: 75px;
+    margin-left: auto;
+    
+}   .small, small {
         font-size: 1rem;
         font-weight: 400;
         color: #00BFF0;
         padding: 4%;
     }
-    .card-group {
-        margin-top: -212px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    }
-    .card {
-        color: white;
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: black;
-        background-clip: border-box;
-        border: 1px solid rgba(0,0,0,.125);
-        border-radius: .25rem;
-    }
-    .card-body {
-       
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        min-height: 1px;
-        padding: 4%;
-    }
-    .card-text{
-        font-size: 1.2rem;
-    }
+  
+   
+    
    
     .card-5 {
         height: 460px;
@@ -2239,7 +2259,7 @@ body {
     }
     .h2, h2 {
         padding: 4%;
-        text-align: center;
+       
         font-weight: 300;
         color:#00BFF0;    
         font-size: 1.3rem;
@@ -2275,18 +2295,29 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+       
     }
-    .row.row-17 {
-        justify-content: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-        flex-direction: row;
+    .row.row-16.text {
+        padding: 6%;
+        color: #00BFF0;
+        margin-top: -208px;
+        font-weight: 400;
+        font-size: 1.1rem;
+
     }
+ .row.row-17 {
+    margin-top: 6%;
+    padding: 6%;
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    font-weight: 400;
+}
     .row.row-17 p {
      
             margin-top: -150px;
@@ -2328,6 +2359,11 @@ body {
     color: #00BFF0;
     padding: 6%;
  }
+ a {
+    color: #00bff0;
+    text-decoration: none;
+    background-color: transparent;
+}
  .row.footer {
     padding: 2%;
     display: -ms-flexbox;
@@ -2339,7 +2375,7 @@ body {
     /* flex-direction: column; */
 }
     .footer {
-        margin-top: 3%;
+   
         box-shadow: -1px -7px 7px 1px #00bff0ad;
         background-color: #000;
     }
@@ -2347,15 +2383,14 @@ body {
 /* Add this CSS to your existing stylesheet */
 
 #footer-image {
-    margin-top: -317px;
-    margin-left: 84%;
+    margin-top: -238px;
+    margin-left: 75%;
     justify-content: right;
-    width: 53px;
+    width: 154px;
 }
-
 .footer-text {
     margin-top: -57px;
-    padding: 2%;
+    padding: 6%;
     text-align: right;
     font-size: 12px;
     color: #495057;
@@ -2379,11 +2414,6 @@ body {
     text-decoration: underline; /* Underline the link on hover */
     color: #00BFF0; /* Change the link color on hover */
 }
-.container-fluid footer img {
-    margin-left: 37%;
-    justify-content: center;
-    width: 25%;
-    margin-top: -63px;
-}
+
 
 }
