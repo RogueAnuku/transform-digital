@@ -1967,13 +1967,7 @@ body {
         font-size: 1.4rem;
         color: #00BFF0;
     }
-    .col-md-6\.title {
-        padding-left: 10%;
-        font-size: 1.6rem;
-        color: #F23580;
-        font-weight: 500;
-        /* padding: 4%; */
-    }
+
     .col-md-6-text {
         margin-left: -198px;
         padding: 20%;
@@ -1989,32 +1983,16 @@ body {
         color: #00BFF0;
     }
    
-    .col-md-6.\31 p{
-     
-            padding: 16%;
-            width: 100%;
-        }
-    .col-md-6.\31 img {
-        width: 100%;
-        
-    }
+ 
     
-.col-md-6.\32 {
-    max-width: 54%;
-}
+
 .small.text  {
     margin-left: 21%;
     width: 47%;
   
 }
 
-.col-md-6.\33 {
-    /* padding: 4%; */
-    margin-top: -1046px;
-    font-size: 1.1rem;
-    color: white;
-    margin-left: 51%;
-} 
+
 .col-md-6 img {
     
     width: 135%;
@@ -2086,7 +2064,10 @@ body {
         text-align: center;
     }
     .row-6 {
+        color: white;
+        display: flex;
         padding-top: 16%;
+        flex-direction: row;
     }
 
   
@@ -2113,20 +2094,7 @@ body {
       
     }
     
-    .carousel-title {
-        margin-top: 8%;
-        padding: 6%;
-        color: #F23580;
-        font-size: 1.8rem;
-        font-weight: 500;
-    }
-    .carousel-inner {
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
+   
     .row-7 {
         padding: 6%;
         font-size: 1.2rem;
@@ -2180,12 +2148,7 @@ body {
             font-size: 1.2rem;
             font-weight: 400;
         }
-        .row-9-titles {
-            color: #F23580;
-            padding: 6%;
-            font-weight: 500;
-            font-size: 1.6rem;
-        }
+      
         .row-9 p {
             margin-top: -100px;
             padding: 6%;
