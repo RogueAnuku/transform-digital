@@ -49,6 +49,7 @@
         /* border-radius: 1.3rem; */
         box-shadow: -1px 1px 14px 0px #00bFF0;
     }
+
        .h1, h1 {
         font-size: 1.4rem;
         color: #F23580;
@@ -80,12 +81,12 @@
        font-size: 1.8rem;
        }
          
-       .col-md-2 {
+       .col-md-2 {padding: 4%;
         /* margin-left: 42%; */
         background-color: #80808038;
         padding: 34px;
         display: flex;
-        
+        color: white;
         border-radius: 1.3rem;
         box-shadow: -1px 1px 14px 0px #00bFF0;
         flex-direction: column;
@@ -99,12 +100,22 @@
            font-size: 1.4rem;
            color: #00BFF0;
            width: 50%;
+           color: white;
        }  
        
       .col-md-8{
         padding: 4%;
         margin-left: auto;
         margin-right: auto;
+        color: white;
+      }
+      .col-md-10 {
+        padding: 4%;
+        color: white;
+      }
+      .col-md-12 {
+        color: #ffffff;
+        padding: 4%;
       }
      
     
@@ -198,9 +209,7 @@
 
 @media screen and (min-width:480px) and (max-width:750px){
 
-    body {
-        background-color: black;
-      }
+    
       .menu-icon-img img {
           width: 46px;
       }
@@ -276,11 +285,12 @@
        
       
        .col-md-2 {
+        color: black;
         /* margin-left: 42%; */
         background-color: #80808038;
         padding: 34px;
         display: flex;
-        -ms-flex: 0 0 16.666667%;
+        -ms-flex: 0 0 50.666667%;
         border-radius: 1.3rem;
         box-shadow: -1px 1px 14px 0px #00bFF0;
         flex-direction: column;
@@ -290,10 +300,12 @@
            margin-top: 6%;
            width: 40%;
            margin-right: 0;
+           color: white;
        
        }        
    
        .col-md-6{
+        color: white;
        background-color: #80808038;
            padding-bottom: 4%;
            font-weight: 500;
@@ -398,11 +410,7 @@
 
 @media screen and (min-width: 751px) and (max-width:1023px){
  
-                   
-       
-    body {
-        background-color: black;
-      }
+    
       .menu-icon-img img {
           width: 46px;
       }
@@ -689,22 +697,7 @@
         flex-direction: column;
         align-content: flex-end;
     }
-    .col-md-4 {
-        margin-top: -30px;
-        width: 40%;
-        margin-right: 0;
     
-    }        
-    .col-md-6-{
-    background-color: #80808038;
-        padding-bottom: 4%;
-        font-weight: 500;
-        font-size: 1.4rem;
-        color: #00BFF0;
-    }  
-    .col-md-6 p {
-        color: white;
-    }   
     .col-md-6 img {
     
     width: 100%;
@@ -714,9 +707,13 @@
     
     .col-md-8 {
     margin-left: auto;
+    margin-left: auto;
     }
    
-    
+    .col-md-10 {
+        margin-right: auto;
+        margin-left: auto;
+    }
    
    
 .horizontal-scroll-container {
