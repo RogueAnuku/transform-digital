@@ -277,11 +277,7 @@
        font-weight: 500;
        font-size: 1.8rem;
        }
-       .row {
-       font-size: 1rem;
-       padding: 8%;
-       color: white;
-       }
+     
        
       
        .col-md-2 {
@@ -369,40 +365,44 @@
        background-color: transparent;
    }
 
-   .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
-       background-color: black;
-       color: #F23580;
-       padding: 20px;
-       display: flex;
-       justify-content: space-between;
-   }
-   
-   /* Style for the left-side links */
-   .footer-links {
-       list-style: none;
-       display: flex;
-       flex-direction: column;
-   }
-   /* Style for individual links */
-   .footer-links a {
-       color: #F23580;
-       text-decoration: none;
-       margin-right: 20px;
-       transition: text-decoration 0.3s; /* Add a smooth transition effect */
-   }
-   .footer-links a:hover {
-       text-decoration: underline; /* Underline the link on hover */
-       color: #00BFF0; /* Change the link color on hover */
-   }
-   /* Style for the image on the right side */
-   .footer-image {
-       max-width: 80px;
-   }
-   .footer-image p {
-       color: grey;
-       font-size: 12px;
-       margin-top: -50px;
-   }
+   .footer {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: #F23580;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    box-shadow: 0px 7px 58px 20px #00bff0ad;
+}
+
+
+/* Style for the left-side links */
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Style for individual links */
+.footer-links a {
+    color: #F23580;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+/* Style for the image on the right side */
+.footer-image {
+    max-width: 180px;
+}
+.footer-image p {
+    color: grey;
+    font-size: 12px;}
 }
     
     
@@ -478,11 +478,7 @@
        font-weight: 500;
        font-size: 1.8rem;
        }
-       .row {
-       font-size: 1rem;
-       padding: 8%;
-       color: white;
-       }
+     
          
      
        .col-md-2 {
@@ -511,11 +507,8 @@
            color: #00BFF0;
            width: 50%;
        }  
- 
        
- 
-   
-       
+        
    .horizontal-scroll-container {
        border-radius: 16px;
        padding: 4%;
@@ -563,40 +556,7 @@
        background-color: transparent;
    }
 
-   .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
-       background-color: black;
-       color: #F23580;
-       padding: 20px;
-       display: flex;
-       justify-content: space-between;
-   }
-   
-   /* Style for the left-side links */
-   .footer-links {
-       list-style: none;
-       display: flex;
-       flex-direction: column;
-   }
-   /* Style for individual links */
-   .footer-links a {
-       color: #F23580;
-       text-decoration: none;
-       margin-right: 20px;
-       transition: text-decoration 0.3s; /* Add a smooth transition effect */
-   }
-   .footer-links a:hover {
-       text-decoration: underline; /* Underline the link on hover */
-       color: #00BFF0; /* Change the link color on hover */
-   }
-   /* Style for the image on the right side */
-   .footer-image {
-       max-width: 180px;
-   }
-   .footer-image p {
-       color: grey;
-       font-size: 12px;
-       margin-top: -50px;
-   }
+ 
    
     }
 
@@ -685,7 +645,7 @@
 
     .col-md-2 {
         background-color:#80808038;
-        padding: 20px;
+        padding: 4%;
         margin-right: 9%;
         /* margin-left: -2%; */
         display: flex;
@@ -705,12 +665,12 @@
     justify-content: center;
     }
     
-    .col-md-8 {
+    .col-md-8 {padding: 4%;
     margin-left: auto;
     margin-left: auto;
     }
    
-    .col-md-10 {
+    .col-md-10 {padding: 4%;
         margin-right: auto;
         margin-left: auto;
     }
