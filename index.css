@@ -35,6 +35,9 @@
           color:#6e7175; /* Default link color */
           transition: color 0.3s; /* Add a smooth transition for color change */
            }
+           .navbar-nav {
+            margin-left: auto;
+           }
            .navbar-nav .nav-item .nav-link:hover {
           color: #00BFF0; /* Change the color to your desired hover color */
            }
@@ -49,6 +52,15 @@
             background-color: #ffffff;
             /* border-radius: 1.3rem; */
             box-shadow: -1px 1px 14px 0px #00bFF0;
+        }
+        .row {
+            /* PADDING: 4%; */
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            /* margin-right: -15px; */
+            /* margin-left: -15px; */
         }
     
            .h1, h1 {
@@ -209,7 +221,7 @@
     }
 
     
-    @media (min-width: 576px) and (max-width: 767.98px) { ... }
+    @media (min-width: 576px) and (max-width: 767.98px) { 
         .menu-icon-img img {
             width: 46px;
         }
@@ -245,7 +257,15 @@
          .navbar-nav .nav-item .nav-link:hover {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
-      
+         .row {
+            /* PADDING: 4%; */
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            /* margin-right: -15px; */
+            /* margin-left: -15px; */
+        }
          .h1, h1 {
           font-size: 1.4rem;
           color: #F23580;
@@ -395,7 +415,7 @@
       text-decoration: underline; /* Underline the link on hover */
       color: #00BFF0; /* Change the link color on hover */
   }
-  /* Style for the image on the right side */
+  /* Style for the image on the right side */ 
   .footer-image {
       max-width: 180px;
   }
@@ -404,17 +424,138 @@
       font-size: 12px;
     
   }
-  
+}
       
 
-     }
+     
      @media (min-width: 768px) and (max-width: 991.98px) {
+        .bg-dark {
+            background-color: #000!important;}
+
+            .h1, h1 {
+                font-size: 1.4rem;
+                color: #F23580;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+            .h2, h2 {
+                padding: 6%;
+                font-weight: 500;
+                color: #00BFF0;
+                font-size: 1rem;
+            }
+           
+               .h3, h3 {
+                   /* padding: 6%; */
+               font-weight: 500;
+               font-family: cinzel;
+               font-size: 2.5rem;
+               margin-top: 8%;
+               color: #F23580;
+               padding-bottom: 6%;
+           }
+                
+           
+           
+               .h5, h5 { color: #F23580;
+               font-weight: 500;
+               font-size: 1.8rem;
+               }
+                 
+        }
+      
+      @media (min-width: 992px) and (max-width: 1199.98px) { .bg-dark {
+        background-color: #000!important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        MARGIN-LEFT: auto;
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        /* flex-basis: auto; */
+        justify-content: flex-end;
+    }
+    .navbar-dark .navbar-brand {
+        color: #f23580;
+    }
+    .row {
+        /* PADDING: 4%; */
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* margin-right: -15px; */
+        /* margin-left: -15px; */
+        background-color: black;
+    }
+    .h1, h1 {
+        font-size: 1.4rem;
+        color: #F23580;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .h2, h2 {
+        padding: 6%;
+        font-weight: 500;
+        color: #00BFF0;
+        font-size: 1rem;
+    }
+   
+       .h3, h3 {
+           /* padding: 6%; */
+       font-weight: 500;
+       font-family: cinzel;
+       font-size: 2.5rem;
+       margin-top: 8%;
+       color: #F23580;
+       padding-bottom: 6%;
+   }
+        
+   
+   
+       .h5, h5 { color: #F23580;
+       font-weight: 500;
+       font-size: 1.8rem;
+       }
+         
 
       }
-      @media (min-width: 992px) and (max-width: 1199.98px) { 
-
+      .col-md-6 {
+        padding: 4%;
       }
-      @media (min-width: 1200px) {  }
+      @media (min-width: 1200px) { .bg-dark {
+        background-color: #000!important;}
+        .navbar-expand-lg .navbar-collapse {
+            MARGIN-LEFT: auto;
+            display: -ms-flexbox!important;
+            display: flex!important;
+            -ms-flex-preferred-size: auto;
+            /* flex-basis: auto; */
+            justify-content: flex-end;
+        }
+        .navbar-dark .navbar-brand {
+            color: #f23580;
+        }
+        .row {
+            /* PADDING: 4%; */
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            /* margin-right: -15px; */
+            /* margin-left: -15px; */
+            background-color: black;
+        }
+        .h1, h1 {
+            color: #f23580;
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+        .col-md-6  {color: black;}
+        }
+    
 
   
                 
