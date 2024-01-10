@@ -213,15 +213,13 @@ body {
            }
            .jumbotron {
             font-size: 1.2rem;
-            /* width: 87%; */
+            
             margin-right: auto;
             margin-left: auto;
             color: white;
-           
-            
+                    
             background-color: #ffffff;
-            /* border-radius: 1.3rem; */
-            box-shadow: -1px 1px 14px 0px #00bFF0;
+          
         }
         .row {
             background-color: #000;
