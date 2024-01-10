@@ -217,8 +217,8 @@ body {
             margin-right: auto;
             margin-left: auto;
             color: white;
-            padding: 2rem 1rem;
-            margin-bottom: 2rem;
+           
+            
             background-color: #ffffff;
             /* border-radius: 1.3rem; */
             box-shadow: -1px 1px 14px 0px #00bFF0;
@@ -323,13 +323,10 @@ body {
                /* height: auto; */
                /* margin-right: 10px; */
            }
+                  
+           
+        .list-group-item {
             
-             
-          
-         
-             
-        
-           .list-group-item {
                font-size: 1.2rem;
                color: white;
                position: relative;
@@ -428,13 +425,12 @@ body {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
          .row {
-            /* PADDING: 4%; */
+           
             display: -ms-flexbox;
             display: flex;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-            /* margin-right: -15px; */
-            /* margin-left: -15px; */
+           
         }
          .h1, h1 {
           font-size: 1.4rem;
@@ -539,8 +535,9 @@ body {
              background-color: #000000;
              border: 1px solid rgba(0,0,0,.125);
          }
+         
       .list-group.list-group-flush {
-       
+             
              /* background: black; */
              margin-right: auto;
              margin-left: auto;
@@ -641,7 +638,8 @@ body {
                  
         }
       
-      @media (min-width: 992px) and (max-width: 1199.98px) { .bg-dark {
+      @media (min-width: 992px) and (max-width: 1199.98px) 
+      { .bg-dark {
         background-color: #000!important;
     }
     .navbar-expand-lg .navbar-collapse {
@@ -656,13 +654,11 @@ body {
         color: #f23580;
     }
     .row {
-        /* PADDING: 4%; */
+     
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        /* margin-right: -15px; */
-        /* margin-left: -15px; */
         background-color: black;
     }
     .h1, h1 {
@@ -702,7 +698,7 @@ body {
         padding: 4%;
       }
      
-        .col-md-6 p span {
+        .span {
             color: #FFC107;
             font-weight: bold;
             /* text-decoration: underline; */
@@ -746,6 +742,7 @@ body {
             /* margin-left: -15px; */
             background-color: black;
         }
+        .col-md-12 {padding:6%}
         .h1, h1 {
             color: #f23580;
             font-size: 2.5rem;
