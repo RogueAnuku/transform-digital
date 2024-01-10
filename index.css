@@ -263,7 +263,18 @@ body {
            font-weight: 500;
            font-size: 1.8rem;
            }
-             
+           .blockquote {
+            color: white;
+            margin-top: 16%;
+            margin-bottom: 1rem;
+            font-size: 1.50rem;
+        } 
+        .small-text {
+            font-size: 1.5rem;
+            color: #feb92e;
+            display: flex;
+            justify-content: space-between;
+        }
            .col-md-2 {padding: 4%;
             /* margin-left: 42%; */
             background-color: #80808038;
@@ -457,14 +468,24 @@ body {
      }
         
      
-     
+     .small-text {
+        font-size: 1.5rem;
+        color: #feb92e;
+        display: flex;
+        justify-content: space-between;
+    }
      
          .h5, h5 { color: #F23580;
          font-weight: 500;
          font-size: 1.8rem;
          }
        
-         
+         .blockquote {
+            color: white;
+            margin-top: 16%;
+            margin-bottom: 1rem;
+            font-size: 1.50rem;
+        }
         
          .col-md-2 {
           color: black;
@@ -622,19 +643,25 @@ body {
                color: #F23580;
                padding-bottom: 6%;
            }
+           .small-text {
+            font-size: 1.5rem;
+            color: #feb92e;
+            display: flex;
+            justify-content: space-between;
+        }
                 
-           
+           .blockquote {
+            color: white;
+            margin-top: 16%;
+            margin-bottom: 1rem;
+            font-size: 1.50rem;
+        }
            
                .h5, h5 { color: #F23580;
                font-weight: 500;
                font-size: 1.8rem;
                }
-               .animated-text {
-                display: inline-block;
-                white-space: nowrap;
-                overflow: hidden;
-                animation: slide 2s ease-in-out infinite alternate;
-            }
+            
                  
         }
       
@@ -693,7 +720,18 @@ body {
        }
          
 
-      
+       .blockquote {
+        color: white;
+        margin-top: 16%;
+        margin-bottom: 1rem;
+        font-size: 1.50rem;
+    }  
+    .small-text {
+        font-size: 1.5rem;
+        color: #feb92e;
+        display: flex;
+        justify-content: space-between;
+    }
       .col-md-6 {
         padding: 4%;
       }
@@ -743,11 +781,23 @@ body {
             background-color: black;
         }
         .col-md-12 {padding:6%}
-        .h1, h1 {
+        .h1, h1 {padding: 6%;
             color: #f23580;
             font-size: 2.5rem;
             font-weight: 400;
         }
+        .blockquote {color: white;
+            margin-top: 16%;
+            margin-bottom: 1rem;
+            font-size: 1.50rem;
+        }
+        .small-text {
+            font-size: 1.5rem;
+            color: #feb92e;
+            display: flex;
+            justify-content: space-between;
+        }
+        
         .col-md-6  {color: black;}
         .animated-text {
             display: inline-block;
