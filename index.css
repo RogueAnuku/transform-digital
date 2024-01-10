@@ -224,6 +224,7 @@ body {
             box-shadow: -1px 1px 14px 0px #00bFF0;
         }
         .row {
+            background-color: #000;
             /* PADDING: 4%; */
             display: -ms-flexbox;
             display: flex;
@@ -270,10 +271,11 @@ body {
             font-size: 1.50rem;
         } 
         .small-text {
-            font-size: 1.5rem;
+            /* font-size: 1.5rem; */
             color: #feb92e;
             display: flex;
             justify-content: space-between;
+            flex-direction: column;
         }
            .col-md-2 {padding: 4%;
             /* margin-left: 42%; */
@@ -287,15 +289,15 @@ body {
             align-content: flex-end;
         }
         
-           .col-md-6{
-           background-color: #80808038;
-               padding-bottom: 4%;
-               font-weight: 500;
-               font-size: 1.4rem;
-               color: #00BFF0;
-               width: 50%;
-               color: white;
-           }  
+        .col-md-6 {
+            background-color: #000;
+            padding-bottom: 4%;
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: #00BFF0;
+         
+            color: white;
+        }
            
           .col-md-8{
             padding: 4%;
@@ -436,6 +438,7 @@ body {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
          .row {
+            background-color: black;
            
             display: -ms-flexbox;
             display: flex;
@@ -469,12 +472,12 @@ body {
         
      
      .small-text {
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
         color: #feb92e;
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
     }
-     
          .h5, h5 { color: #F23580;
          font-weight: 500;
          font-size: 1.8rem;
@@ -507,15 +510,15 @@ body {
          
          }        
      
-         .col-md-6{
-          color: white;
-         background-color: #80808038;
-             padding-bottom: 4%;
-             font-weight: 500;
-             font-size: 1.4rem;
-             color: #00BFF0;
-             width: 50%;
-         }  
+         .col-md-6 {
+            background-color: #000;
+            padding-bottom: 4%;
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: #00BFF0;
+          
+            color: white;
+        }
    
          
        
@@ -644,10 +647,11 @@ body {
                padding-bottom: 6%;
            }
            .small-text {
-            font-size: 1.5rem;
+            /* font-size: 1.5rem; */
             color: #feb92e;
             display: flex;
             justify-content: space-between;
+            flex-direction: column;
         }
                 
            .blockquote {
@@ -732,10 +736,15 @@ body {
         display: flex;
         justify-content: space-between;
     }
-      .col-md-6 {
-        padding: 4%;
-      }
-     
+    .col-md-6 {
+        background-color: #000;
+        padding-bottom: 4%;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #00BFF0;
+        width: 50%;
+        color: white;
+    }
         .span {
             color: #FFC107;
             font-weight: bold;
@@ -771,13 +780,13 @@ body {
             color: #f23580;
         }
         .row {
-            /* PADDING: 4%; */
+           
             display: -ms-flexbox;
             display: flex;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-            /* margin-right: -15px; */
-            /* margin-left: -15px; */
+            margin-right: 0; 
+            margin-left: 0; 
             background-color: black;
         }
         .col-md-12 {padding:6%}
