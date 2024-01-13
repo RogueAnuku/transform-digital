@@ -225,7 +225,12 @@ body {
              margin-right: 0; 
            margin-left: 0; 
         }
-    
+        .lead {
+            font-size: 4rem;
+            color: #00bff0;
+            /* font-size: 1.25rem; */
+            font-weight: 700;
+        }
            .h1, h1 {
             font-size: 1.4rem;
             color: #F23580;
@@ -452,7 +457,12 @@ body {
              margin-right: 0; 
            margin-left: 0; 
         }
-    
+        .lead {
+            font-size: 4rem;
+            color: #00bff0;
+            /* font-size: 1.25rem; */
+            font-weight: 700;
+        }
            .h1, h1 {
             font-size: 1.4rem;
             color: #F23580;
@@ -842,6 +852,12 @@ body {
      @media (min-width: 768px) and (max-width: 991.98px) {
         .bg-dark {
             background-color: #000!important;}
+            .lead {
+                font-size: 4rem;
+                color: #00bff0;
+                /* font-size: 1.25rem; */
+                font-weight: 700;
+            }
 
             .h1, h1 {
                 font-size: 1.4rem;
@@ -913,6 +929,12 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
        
+    }
+    .lead {
+        font-size: 4rem;
+        color: #00bff0;
+        /* font-size: 1.25rem; */
+        font-weight: 700;
     }
     .h1, h1 {
         font-size: 1.4rem;
@@ -1004,6 +1026,12 @@ body {
             margin-right: 0; 
             margin-left: 0; 
            
+        }
+        .lead {
+            font-size: 4rem;
+            color: #00bff0;
+            /* font-size: 1.25rem; */
+            font-weight: 700;
         }
         .col-md-12 {padding:6%}
         .h1, h1 {
