@@ -528,8 +528,8 @@ body {
         .col-md-6 {
             background-color: #000;
             padding-bottom: 4%;
-            font-weight: 500;
-            font-size: 1.4rem;
+    
+            font-size: 1rem;
             color: #00BFF0;
          
             color: white;
@@ -1058,9 +1058,9 @@ body {
             /* font-size: 1.25rem; */
             font-weight: 700;
         }
-        .col-md-12 {padding:6%}
+        .col-md-12 {padding:2%}
         .h1, h1 {
-            padding: 6%;
+       
             font-size: 4rem;
             color: #F23580;
             margin-bottom: 0.5rem;
@@ -1068,7 +1068,7 @@ body {
             line-height: 1.2;
         }
         .blockquote {color: white;
-            margin-top: 16%;
+         
             margin-bottom: 1rem;
             font-size: 1.50rem;
         }
@@ -1079,7 +1079,7 @@ body {
             justify-content: space-between;
         }
         
-        .col-md-6  {color: black;}
+        .col-md-6  {color: white;}
         .animated-text {
             display: inline-block;
             white-space: nowrap;
