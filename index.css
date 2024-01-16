@@ -961,8 +961,8 @@ body {
    
     }
     .h1, h1 {
-        padding: 6%;
-        font-size: 4rem;
+        padding: 4%;
+        font-size: 3rem;
         color: #F23580;
         margin-bottom: 0.5rem;
         font-weight: 500;
@@ -1038,9 +1038,15 @@ body {
             justify-content: flex-end;
             
         }
+        .navbar {
+            box-shadow: -1px 1px 14px 0px #00bFF0;  box-shadow: -1px 1px 14px 0px #00bFF0;
+        }
         
         .navbar-dark .navbar-brand {
             color: #f23580;
+        }
+        .jumbotron {
+            padding: 0%;
         }
         .row {
            
@@ -1060,8 +1066,8 @@ body {
         }
         .col-md-12 {padding:2%}
         .h1, h1 {
-       
-            font-size: 4rem;
+       padding: 4%;
+            font-size: 3rem;
             color: #F23580;
             margin-bottom: 0.5rem;
             font-weight: 500;
