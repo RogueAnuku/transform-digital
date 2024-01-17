@@ -965,7 +965,7 @@ body {
         font-size: 3rem;
         color: #F23580;
         margin-bottom: 0.5rem;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.2;
     }
     .h2, h2 {
@@ -1070,7 +1070,7 @@ body {
             font-size: 3rem;
             color: #F23580;
             margin-bottom: 0.5rem;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 1.2;
         }
         .blockquote {color: white;
