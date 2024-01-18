@@ -1048,23 +1048,14 @@ body {
         .jumbotron {
             padding: 0%;
         }
-        .row {
-           
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: 0; 
-            margin-left: 0; 
-           
-        }
+    
         .lead {
             font-size: 4rem;
             color: #00bff0;
             /* font-size: 1.25rem; */
             font-weight: 700;
         }
-        .col-md-12 {padding:2%}
+        .col-md-12 {padding:4%}
         .h1, h1 {
        padding: 4%;
             font-size: 3rem;
@@ -1079,13 +1070,13 @@ body {
             font-size: 1.50rem;
         }
         .small-text {
-            font-size: 1.5rem;
+           
             color: #feb92e;
             display: flex;
             justify-content: space-between;
         }
         
-        .col-md-6  {color: white;}
+        .col-md-6  {color: white;padding: 6%;}
         .animated-text {
             display: inline-block;
             white-space: nowrap;
