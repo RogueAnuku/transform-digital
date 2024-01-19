@@ -219,15 +219,7 @@ body {
         .jumbotron.jumbotron-fluid img{
             padding: 6%;
         }
-        .row {
-           
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-             margin-right: 0; 
-           margin-left: 0; 
-        }
+    
         .lead {
             font-size: 3rem;
             color: #00bff0;
@@ -454,15 +446,7 @@ body {
         .jumbotron.jumbotron-fluid img{
             padding: 6%;
         }
-        .row {
-           
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-             margin-right: 0; 
-           margin-left: 0; 
-        }
+    
         .lead {
             padding: 4%;
             font-size: 3rem;
@@ -471,7 +455,7 @@ body {
        
         }
         .h1, h1 {
-            font-size: 3.6rem;
+            font-size: 2rem;
             color: #F23580;
             margin-bottom: 0.5rem;
             font-weight: 500;
@@ -488,7 +472,7 @@ body {
                /* padding: 6%; */
            font-weight: 500;
            font-family: cinzel;
-           font-size: 2.5rem;
+           font-size: 1.5rem;
            margin-top: 8%;
            color: #F23580;
            padding-bottom: 6%;
@@ -673,19 +657,13 @@ body {
          .navbar-nav .nav-item .nav-link:hover {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
+         .jumbotron {
+            padding: -1rem 2rem;
+        }
          .jumbotron.jumbotron-fluid img{
             padding: 10%;
         }
-         .row {
-           
-           margin-left: 0;
-           margin-right: 0;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-           
-        }
+     
         .lead {
             padding: 4%;
             font-size: 3rem;
@@ -695,7 +673,7 @@ body {
         }
         .h1, h1 {
             padding: 6%;
-            font-size: 4rem;
+            font-size: 2rem;
             color: #F23580;
             margin-bottom: 0.5rem;
             font-weight: 500;
@@ -824,7 +802,7 @@ body {
          background-color: transparent;
      }
      .footer {
-      position: absolute;
+   
       width: 100%;
       background-color: black;
       color: #F23580;
@@ -877,13 +855,14 @@ body {
                 /* font-size: 1.25rem; */
            
             }
+     
             .jumbotron.jumbotron-fluid img{
                 padding: 10%;
             }
 
             .h1, h1 {
                 padding: 6%;
-                font-size: 4rem;
+                font-size: 2rem;
                 color: #F23580;
                 margin-bottom: 0.5rem;
                 font-weight: 500;
@@ -924,6 +903,38 @@ body {
                font-weight: 500;
                font-size: 1.8rem;
                }
+               .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
+                background-color: black;
+                color: #F23580;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            /* Style for the left-side links */
+            .footer-links {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+            }
+            /* Style for individual links */
+            .footer-links a {
+                color: #F23580;
+                text-decoration: none;
+                margin-right: 20px;
+                transition: text-decoration 0.3s; /* Add a smooth transition effect */
+            }
+            .footer-links a:hover {
+                text-decoration: underline; /* Underline the link on hover */
+                color: #00BFF0; /* Change the link color on hover */
+            }
+            /* Style for the image on the right side */
+            .footer-image {
+                max-width: 180px;
+            }
+            .footer-image p {
+                color: grey;
+                         }
             
                  
         }
@@ -944,15 +955,7 @@ body {
     .navbar-dark .navbar-brand {
         color: #f23580;
     }
-    .row {
-     margin-left: 0;
-     margin-right: 0;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-       
-    }
+ 
     .lead {
         padding: 4%;
         font-size: 3rem;
@@ -1019,11 +1022,46 @@ body {
             /* text-decoration: underline; */
             font-size: 1rem;
         }
+      
            @keyframes slide {
             0% { transform: translateX(-100%); }
             100% { transform: translateX(0); }
         }
+        .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
+            background-color: black;
+            color: #F23580;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
         
+        /* Style for the left-side links */
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Style for individual links */
+        .footer-links a {
+            color: #F23580;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: text-decoration 0.3s; /* Add a smooth transition effect */
+        }
+        .footer-links a:hover {
+            text-decoration: underline; /* Underline the link on hover */
+            color: #00BFF0; /* Change the link color on hover */
+        }
+        /* Style for the image on the right side */
+        .footer-image {
+            max-width: 180px;
+        }
+        .footer-image p {
+            color: grey;
+            font-size: 12px;
+            margin-top: -50px;
+        
+     }
        
     }
       @media (min-width: 1200px) { 
@@ -1048,7 +1086,7 @@ body {
         .jumbotron {
             padding: 0%;
         }
-    
+   
         .lead {
             font-size: 4rem;
             color: #00bff0;
@@ -1083,6 +1121,41 @@ body {
             overflow: hidden;
             animation: slide 2s ease-in-out infinite alternate;
         }
+        .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
+            background-color: black;
+            color: #F23580;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        /* Style for the left-side links */
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Style for individual links */
+        .footer-links a {
+            color: #F23580;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: text-decoration 0.3s; /* Add a smooth transition effect */
+        }
+        .footer-links a:hover {
+            text-decoration: underline; /* Underline the link on hover */
+            color: #00BFF0; /* Change the link color on hover */
+        }
+        /* Style for the image on the right side */
+        .footer-image {
+            max-width: 180px;
+        }
+        .footer-image p {
+            color: grey;
+            font-size: 12px;
+            margin-top: -50px;
+        
+     }
         }
     
 
