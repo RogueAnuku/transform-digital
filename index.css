@@ -266,6 +266,11 @@ body {
         .jumbotron.jumbotron-fluid img{
             padding: 6%;
         }
+        .back-arrow {
+            padding: 2%;
+            font-size: 40px;
+            cursor: pointer;
+        }
     
         .lead {
             font-size: 2rem;
@@ -280,8 +285,8 @@ body {
         .p {
             color: white;
         }
-           .h1, h1 {
-            font-size: 1.4rem;
+           .h1, h1 {padding: 2%;
+           
             color: #F23580;
             margin-bottom: 0.5rem;
             font-weight: 500;
@@ -513,12 +518,16 @@ body {
          .navbar-nav .nav-item .nav-link:hover {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
-         .jumbotron {
-            padding: -1rem 2rem;
-        }
+       
          .jumbotron.jumbotron-fluid img{
             padding: 10%;
         }
+        .back-arrow {
+            padding: 2%;
+            font-size: 40px;
+            cursor: pointer;
+        }
+    
      
         .lead {
             padding: 4%;
@@ -738,6 +747,11 @@ body {
             .jumbotron.jumbotron-fluid img{
                 padding: 10%;
             }
+            .back-arrow {
+                padding: 2%;
+                font-size: 40px;
+                cursor: pointer;
+            }
 
             .h1, h1 {
                 padding: 6%;
@@ -854,6 +868,11 @@ body {
     }
     .navbar-dark .navbar-brand {
         color: #f23580;
+    }
+    .back-arrow {
+        padding: 2%;
+        font-size: 40px;
+        cursor: pointer;
     }
  
     .lead {
@@ -1007,9 +1026,21 @@ body {
         .jumbotron {
             padding: 0%;
         }
+        .jumbotron.jumbotron-fluid h1{
+            margin-top: -50px;
+        }
+        .jumbotron.jumbotron-fluid img{
+            padding: 4%;
+        }
+        .back-arrow {
+            padding: 4%;
+            font-size: 60px;
+            cursor: pointer;
+        }
    
-        .lead {
-            font-size: 4rem;
+        .lead {margin-top: -60px;
+            font-size: 2rem;
+            padding: 2%;
             color: #00bff0;
             /* font-size: 1.25rem; */
             font-weight: 700;
@@ -1025,6 +1056,7 @@ body {
             margin-bottom: 0.5rem;
             font-weight: 400;
             line-height: 1.2;
+            text-align: center;
         }
         .blockquote {
          

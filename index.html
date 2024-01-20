@@ -69,14 +69,15 @@
     </nav>
 
       
-    <div class="jumbotron jumbotron-fluid" style="background-color: white;" >      
+    <div class="jumbotron jumbotron-fluid" style="background-color: white;" >
+        <span class="back-arrow" onclick="goBack()">&#8592;</span>      
             <h1>Transforming The Digital frontier</h1>                 
       
                 <img src="./images/Object - Copy.png" style="width: 80%;">  
              
           
                 <p class="lead" style="flex-direction:reverse-row; font-weight: 400; padding: 4%;"> An independant case study by Anika McPhee</p> 
-                <p style="color: #f23580;">Conducted in May 2023</p>
+                <p style="color: #f23580; padding: 2%;">Conducted in May 2023</p>
 
                      
                
@@ -225,22 +226,20 @@
     </div>
     <div class="row" style="margin-left: 0; margin-right:0;">         
         <div class="col-md-12">  
-            <p2>The Results....</p2>                                    
+            <h1>The Results....</h1>                                    
                  <img src="./images/screen 3.png" style="width: 100%;">
                  <p style="color: white; padding: 4%; font-size: 1rem;">I added a welcome banner, with components that span past the screen. This prompts users to scroll horizontally allowing for additional content to be seen and ensures the purpose of the webpage is clear.</p>
                  <p style="color: white; padding: 4%; font-size: 1rem;">I have also included "Most Popular Services". I ensured it remained above the fold so users have a greater understanding of the services provided. </p>
         </div>                
     </div>       
-    <div class="row" style="margin-left: 0; margin-right:0;">  
-        <div class="col-md-12" style="background-color: #00BCD4; color: white;" >  
+    <div class="row" style="margin-left: 0; margin-right:0; background-color: #00BCD4; color: white;">  
+        <div class="col-md-12" >  
             <h1>So, What's next...?</h1>
             
-              
+            <p>A/B testing</p>  
                          <p>Clean up the Hi-Fi prototypes for both desktop and mobile (ensure all components are interacting correctly) </p>
                          <p>Develop the Hi-Fi mobile menu for iterated prototype </p>
-                         <p> Change ‘Careers & Media’ to ‘Join Us & Media’ consistently in prototype components. Currently, some component still have the old terminology </p>
-                         <p>To further intuitive navigation and information hierarchy, I would next test my assumption that: ‘Join Us & Media’ could be changed by having the  ‘Media’  portion separate from the ‘Join Us’.  Further testing is required.   
-                        A/B Testing on hero carousel images</p>          
+                                                       
                  
         </div>
     </div>
@@ -264,6 +263,11 @@
         </div>
                 
     </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 
 
 </body>
